@@ -1,34 +1,61 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const searchBox = document.getElementById('search-box');
-    const navLinks = document.querySelectorAll('.nav-link');
+    const searchResults = document.getElementById('search-results');
+    const navTree = document.getElementById('nav-tree');
 
     let searchIndex = [];
+    let fuse = null;
+
     try {
         const response = await fetch('search-index.json');
         searchIndex = await response.json();
+
+        fuse = new Fuse(searchIndex, {
+            keys: ['title', 'japanese', 'id'],
+            threshold: 0.3,
+            ignoreLocation: true
+        });
     } catch (e) {
         console.error('Failed to load search index', e);
     }
 
     searchBox.addEventListener('input', (e) => {
-        const term = e.target.value.toLowerCase();
+        const term = e.target.value.trim();
 
-        document.querySelectorAll('.nav-link').forEach(link => {
-            const text = link.textContent.toLowerCase();
-            if (text.includes(term)) {
-                link.style.display = 'block';
-            } else {
-                link.style.display = 'none';
-            }
-        });
+        if (term.length < 2) {
+            searchResults.innerHTML = '';
+            searchResults.classList.add('hidden');
+            navTree.classList.remove('hidden');
+            return;
+        }
 
-        document.querySelectorAll('.nav-group').forEach(group => {
-            const visibleLinks = group.querySelectorAll('.nav-link[style="display: block;"]');
-            if (visibleLinks.length === 0 && term !== "") {
-                group.style.display = 'none';
-            } else {
-                group.style.display = 'block';
-            }
-        });
+        const results = fuse.search(term);
+
+        if (results.length > 0) {
+            navTree.classList.add('hidden');
+            searchResults.classList.remove('hidden');
+
+            searchResults.innerHTML = results.slice(0, 10).map(result => {
+                const item = result.item;
+                return `
+                    <a href="${item.url}" class="search-result-item nav-link">
+                        <div class="result-title">${item.title}</div>
+                        ${item.japanese ? `<div class="result-sub">${item.japanese}</div>` : ''}
+                        <div class="tag small">${item.type}</div>
+                    </a>
+                `;
+            }).join('');
+        } else {
+            searchResults.innerHTML = '<div class="no-results">Ingen treff...</div>';
+            searchResults.classList.remove('hidden');
+            navTree.classList.add('hidden');
+        }
+    });
+
+    // Close search results when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!searchBox.contains(e.target) && !searchResults.contains(e.target)) {
+            // Optional: clear search on blur if desired
+        }
     });
 });

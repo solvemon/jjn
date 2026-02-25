@@ -34,7 +34,13 @@ async function build() {
             if (!file.endsWith('.md')) continue;
             const { data, content } = matter(await fs.readFile(path.join(folderPath, file), 'utf-8'));
             allNodes[data.id] = { ...data, body: content, url: `${data.id}.html`, type: folder };
-            searchIndex.push({ id: data.id, title: data.name, type: folder, url: `${data.id}.html` });
+            searchIndex.push({
+                id: data.id,
+                title: data.name,
+                japanese: data.japanese || '',
+                type: folder,
+                url: `${data.id}.html`
+            });
         }
     }
 

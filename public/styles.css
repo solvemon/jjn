@@ -105,6 +105,62 @@ a:hover {
   margin-bottom: 0.4rem;
 }
 
+.hidden {
+  display: none !important;
+}
+
+#search-results {
+  margin-bottom: 2rem;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.search-result-item {
+  background: rgba(255, 255, 255, 0.03);
+  margin-bottom: 0.5rem;
+  padding: 0.8rem !important;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.search-result-item:hover {
+  background: rgba(56, 189, 248, 0.1);
+  border-color: var(--accent);
+}
+
+.result-title {
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.result-sub {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.tag.small {
+  font-size: 0.65rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.no-results {
+  padding: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+#search-box {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  color: white;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
 .nav-group h3 {
   font-size: 0.9rem;
   text-transform: uppercase;
