@@ -9,7 +9,7 @@
                 <div v-if="results.length > 0 && isFocused" class="results-dropdown">
                     <router-link v-for="res in results.slice(0, 10)" :key="res.item.id" :to="`/c/${res.item.id}`"
                         class="result-item" @click="clearSearch">
-                        <div class="result-title">{{ res.item.title }}</div>
+                        <div class="result-title">{{ res.item.name }}</div>
                         <div class="result-meta">
                             <span v-if="res.item.japanese" class="result-sub">{{ res.item.japanese }}</span>
                             <span class="tag small">{{ res.item.typeLabel }}</span>
@@ -45,7 +45,7 @@ let fuse = null;
 onMounted(() => {
     const nodes = Object.values(curriculumData.nodes);
     fuse = new Fuse(nodes, {
-        keys: ['name', 'japanese', 'id'],
+        keys: ['name', 'japanese', 'id', 'typeLabel', 'domainLabel'],
         threshold: 0.3,
         ignoreLocation: true
     });
