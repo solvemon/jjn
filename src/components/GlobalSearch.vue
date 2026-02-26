@@ -185,4 +185,34 @@ input:focus {
     text-align: center;
     color: var(--text-muted);
 }
+
+@media (max-width: 768px) {
+    .results-dropdown {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100vw;
+        height: calc(100vh - 70px);
+        border-radius: 0;
+        border: none;
+    }
+
+    .hero .results-dropdown {
+        top: unset;
+        bottom: 0;
+        height: 60vh;
+        border-top: 1px solid var(--glass-border);
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+
+    .result-item {
+        padding: 1.2rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .result-title {
+        font-size: 1.1rem;
+    }
+}
 </style>

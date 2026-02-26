@@ -1,9 +1,5 @@
 <template>
     <main class="landing-container">
-        <header class="landing-header">
-            <h1 class="logo-text">AAJJ <span>PENSUM</span></h1>
-        </header>
-
         <section class="landing-search">
             <GlobalSearch type="hero" />
         </section>
@@ -64,5 +60,20 @@ import GlobalSearch from '../components/GlobalSearch.vue';
     color: var(--accent);
     opacity: 1;
     transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .logo-text {
+        font-size: 2.8rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .landing-container {
+        padding: 1.5rem;
+    }
+
+    .landing-search {
+        max-width: 100%;
+    }
 }
 </style>

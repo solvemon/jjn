@@ -1,6 +1,6 @@
 <template>
     <div class="curriculum-layout" v-if="node">
-        <aside id="sidebar">
+        <aside id="sidebar" :class="{ 'mobile-show': sidebarOpen }">
             <div class="nav-tree">
                 <div v-for="group in curriculumData.nav" :key="group.title" class="nav-group">
                     <h3>{{ group.title }}</h3>
@@ -45,7 +45,7 @@
 import { computed } from 'vue';
 import curriculumData from '../data/curriculum.json';
 
-const props = defineProps(['id']);
+const props = defineProps(['id', 'sidebarOpen']);
 
 const node = computed(() => curriculumData.nodes[props.id]);
 </script>
@@ -66,6 +66,12 @@ const node = computed(() => curriculumData.nodes[props.id]);
     border-right: 1px solid var(--glass-border);
     padding: 2rem;
     overflow-y: auto;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+#sidebar.mobile-show {
+    transform: translateX(0);
 }
 
 #main-content {
@@ -73,6 +79,7 @@ const node = computed(() => curriculumData.nodes[props.id]);
     flex: 1;
     padding: 3rem;
     max-width: 1000px;
+    transition: margin-left 0.3s ease;
 }
 
 .content-card {
@@ -82,6 +89,41 @@ const node = computed(() => curriculumData.nodes[props.id]);
     border-radius: 1.5rem;
     padding: 3.5rem;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 1024px) {
+    #main-content {
+        padding: 2rem;
+    }
+
+    .content-card {
+        padding: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        transform: translateX(-100%);
+        background: rgba(10, 10, 12, 0.95);
+        height: 100vh;
+        top: 0;
+        padding-top: 80px;
+    }
+
+    #main-content {
+        margin-left: 0;
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+
+    .content-card {
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .content-header h1 {
+        font-size: 2rem;
+    }
 }
 
 .content-header h1 {
