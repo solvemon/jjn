@@ -1,0 +1,4942 @@
+{
+  "nodes": {
+    "bear-hug-frontal": {
+      "id": "bear-hug-frontal",
+      "name": "Omfavning over armer forfra",
+      "attack_type": "grapple",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/1dan-black",
+          "notes": "Tema 2"
+        }
+      ],
+      "html": "<h1>Omfavning over armer forfra</h1>\n<p>Angriper griper rundt forsvarerens kropp og armer forfra for å løfte eller låse dem.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "bear-hug-rear": {
+      "id": "bear-hug-rear",
+      "name": "Omfavning over armer bakfra",
+      "attack_type": "grapple",
+      "domain": "standing",
+      "direction": "rear",
+      "sources": [
+        {
+          "document": "senior/1dan-black",
+          "notes": "Tema 2"
+        }
+      ],
+      "html": "<h1>Omfavning over armer bakfra</h1>\n<p>Angriper griper rundt forsvarerens kropp og armer bakfra for å løfte eller låse dem.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "choke-rear-arm": {
+      "id": "choke-rear-arm",
+      "name": "Angriper griper tak med armen og struper deg bakfra",
+      "attack_type": "choke",
+      "domain": "standing",
+      "direction": "rear",
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "309"
+        }
+      ],
+      "html": "<h1>Angriper griper tak med armen og struper deg bakfra</h1>\n<p>Et farlig angrep der angriperen legger armen rundt forsvarerens hals bakfra for å kvele eller kontrollere dem.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "choke-wall-frontal": {
+      "id": "choke-wall-frontal",
+      "name": "Angriper struper deg mot en vegg",
+      "attack_type": "choke",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/1-brown",
+          "notes": "120"
+        }
+      ],
+      "html": "<h1>Angriper struper deg mot en vegg</h1>\n<p>En farlig situasjon der forsvareren er låst mot en vegg og angriperen bruker begge hender for å strupe.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "grab-clothes-frontal": {
+      "id": "grab-clothes-frontal",
+      "name": "Angriper griper tak i drakten/klærne dine forfra",
+      "attack_type": "grab",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/2-blue",
+          "notes": "214"
+        }
+      ],
+      "html": "<h1>Angriper griper tak i drakten/klærne dine forfra</h1>\n<p>Et angrep der angriperen bruker en eller begge hender til å gripe tak i forsvarerens drakt eller klær (bryst/skulder) for å kontrollere eller riste dem.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "grab-hair-frontal": {
+      "id": "grab-hair-frontal",
+      "name": "Angriper griper tak i håret ditt forfra/fra siden",
+      "attack_type": "grab",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/2-blue",
+          "notes": "215"
+        }
+      ],
+      "html": "<h1>Angriper griper tak i håret ditt forfra/fra siden</h1>\n<p>Et smertefullt angrep der angriperen griper tak i forsvarerens hår for å styre hodet eller tvinge dem ned.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "ground-attack-guard": {
+      "id": "ground-attack-guard",
+      "name": "Angriper mellom dine ben",
+      "attack_type": "strike",
+      "domain": "ground",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "312"
+        }
+      ],
+      "html": "<h1>Angriper mellom dine ben</h1>\n<p>En situasjon på bakken der forsvareren har angriperen i sin guard, men angriperen forsøker å slå eller passere.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Bakke",
+      "related": []
+    },
+    "ground-attack-lying": {
+      "id": "ground-attack-lying",
+      "name": "Angriper står over deg mens du ligger på ryggen",
+      "attack_type": "strike",
+      "domain": "ground",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/2-blue",
+          "notes": "217"
+        }
+      ],
+      "html": "<h1>Angriper står over deg mens du ligger på ryggen</h1>\n<p>En utsatt posisjon på bakken der forsvareren ligger på ryggen og angriperen er stående, klar til å sparke eller kaste seg over.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Bakke",
+      "related": []
+    },
+    "ground-attack-side": {
+      "id": "ground-attack-side",
+      "name": "Angriper ved siden av deg på bakken",
+      "attack_type": "strike",
+      "domain": "ground",
+      "direction": "lateral",
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "313"
+        }
+      ],
+      "html": "<h1>Angriper ved siden av deg på bakken</h1>\n<p>Forsvareren ligger på ryggen og angriperen står eller kneler ved siden av, klar til å angripe.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Bakke",
+      "related": []
+    },
+    "ground-choke-mount": {
+      "id": "ground-choke-mount",
+      "name": "Angriper sitter over deg og struper",
+      "attack_type": "choke",
+      "domain": "ground",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "311"
+        }
+      ],
+      "html": "<h1>Angriper sitter over deg og struper</h1>\n<p>Et angrep på bakken der angriperen har montert (tate shio gatame) og forsøker strupetak.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Bakke",
+      "related": []
+    },
+    "headlock-frontal": {
+      "id": "headlock-frontal",
+      "name": "Angriper tar hodeklem forfra (Headlock)",
+      "attack_type": "grapple",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/1-brown",
+          "notes": "118"
+        }
+      ],
+      "html": "<h1>Angriper tar hodeklem forfra (Headlock)</h1>\n<p>Et kraftfullt grep der angriperen låser forsvarerens hode under armen fra forsiden.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "headlock-rear": {
+      "id": "headlock-rear",
+      "name": "Angriper tar hodeklem bakfra (Headlock)",
+      "attack_type": "grapple",
+      "domain": "standing",
+      "direction": "rear",
+      "sources": [
+        {
+          "document": "senior/1-brown",
+          "notes": "119"
+        }
+      ],
+      "html": "<h1>Angriper tar hodeklem bakfra (Headlock)</h1>\n<p>Et angrep der angriperen sniker seg bakfra og låser forsvarerens hode under armen.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "neck-grab-frontal": {
+      "id": "neck-grab-frontal",
+      "name": "Angriper griper tak rundt halsen din forfra",
+      "attack_type": "choke",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/4-orange",
+          "notes": "405"
+        }
+      ],
+      "html": "<h1>Angriper griper tak rundt halsen din forfra</h1>\n<p>Et strupetak eller grep rundt halsen utført med begge hender fra forsiden.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "push-frontal": {
+      "id": "push-frontal",
+      "name": "Angriper dytter deg forfra",
+      "attack_type": "push",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/5-yellow",
+          "notes": "502"
+        }
+      ],
+      "html": "<h1>Angriper dytter deg forfra</h1>\n<p>Et enkelt frontal-angrep der angriperen bruker begge hender for å skyve forsvareren bakover eller ut av balanse.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "push-rear": {
+      "id": "push-rear",
+      "name": "Angriper dytter deg bakfra",
+      "attack_type": "push",
+      "domain": "standing",
+      "direction": "rear",
+      "sources": [
+        {
+          "document": "senior/5-yellow",
+          "notes": "502"
+        }
+      ],
+      "html": "<h1>Angriper dytter deg bakfra</h1>\n<p>Et overraskelsesangrep bakfra der angriperen dytter forsvareren forover.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "strike-combo-straight": {
+      "id": "strike-combo-straight",
+      "name": "Angriper slår en rett slag kombinasjon",
+      "attack_type": "strike",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/5-yellow",
+          "notes": "504"
+        }
+      ],
+      "html": "<h1>Angriper slår en rett slag kombinasjon</h1>\n<p>Et frontal-angrep bestående av sekvensielle rette slag (venstre/høyre) rettet mot hodet eller kroppen.</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "strike-swing-combo": {
+      "id": "strike-swing-combo",
+      "name": "Angriper slår rette slag og sving slag kombinasjon",
+      "attack_type": "strike",
+      "domain": "standing",
+      "direction": "frontal",
+      "sources": [
+        {
+          "document": "senior/4-orange",
+          "notes": "406"
+        }
+      ],
+      "html": "<h1>Angriper slår rette slag og sving slag kombinasjon</h1>\n<p>Et sammensatt angrep som starter med rette slag (jodan/chudan) etterfulgt av sirkulære svingende slag (hooks).</p>\n",
+      "type": "attacks",
+      "typeLabel": "Angrep",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "combination-mon-1-2": {
+      "id": "combination-mon-1-2",
+      "name": "1-2 Kombinasjon (Junior)",
+      "domain": "standing",
+      "sequence": [
+        "kizami-zuki",
+        "gyaku-zuki"
+      ],
+      "curriculum_levels": [
+        "junior-white-1-stripe"
+      ],
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Junior White 1-stripe"
+        }
+      ],
+      "html": "<h1>1-2 Kombinasjon (Junior)</h1>\n<p>En grunnleggende slagkombinasjon bestående av et lead-slag (kizami zuki) etterfulgt av et kraftslag (gyaku zuki). Fokus på flyt og guard.</p>\n",
+      "type": "combinations",
+      "typeLabel": "Kombinasjon",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "combination-mon-strike-kick": {
+      "id": "combination-mon-strike-kick",
+      "name": "Slag og spark kombinasjon (Junior)",
+      "domain": "standing",
+      "sequence": [
+        "kizami-zuki",
+        "gyaku-zuki",
+        "mae-geri"
+      ],
+      "curriculum_levels": [
+        "junior-white-2-stripe"
+      ],
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Junior White 2-stripe"
+        }
+      ],
+      "html": "<h1>Slag og spark kombinasjon (Junior)</h1>\n<p>En sammensatt kombinasjon som inkluderer både slag og et rett spark.</p>\n",
+      "type": "combinations",
+      "typeLabel": "Kombinasjon",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "combination-mon-yellow": {
+      "id": "combination-mon-yellow",
+      "name": "Slag og rundspark kombinasjon (Junior)",
+      "domain": "standing",
+      "sequence": [
+        "kizami-zuki",
+        "gyaku-zuki",
+        "mawashi-geri"
+      ],
+      "curriculum_levels": [
+        "junior-yellow-mon"
+      ],
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Gult belte junior"
+        }
+      ],
+      "html": "<h1>Slag og rundspark kombinasjon (Junior)</h1>\n<p>Kombinasjon der rundsparket (mawashi geri) utføres i &quot;utfight&quot; (bevegelse ut og bort fra angriper).</p>\n",
+      "type": "combinations",
+      "typeLabel": "Kombinasjon",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "defense-118-1": {
+      "id": "defense-118-1",
+      "name": "Forsvar mot hodeklem forfra (Yoko Otoshi)",
+      "against": "headlock-frontal",
+      "sequence": [
+        "yoko-otoshi"
+      ],
+      "ends_in": "guard",
+      "defense_number": "118",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot hodeklem forfra (Yoko Otoshi)</h1>\n<p>Fest grep, hold godt i grepsarmen, slå i skrittet og kast Yoko Otoshi. Grip rundt hodet og vend angriper rundt idet du selv går opp i guard.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-118-2": {
+      "id": "defense-118-2",
+      "name": "Forsvar mot hodeklem forfra (Tani Otoshi)",
+      "against": "headlock-frontal",
+      "sequence": [
+        "tani-otoshi"
+      ],
+      "ends_in": "guard",
+      "defense_number": "118",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot hodeklem forfra (Tani Otoshi)</h1>\n<p>Fest grep rundt grepsarmen med den ene hånden og skulderen med den andre. Beveg deg på motsatt side og fell angriper med Tani Otoshi. Kom deg opp i guard.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-119-1": {
+      "id": "defense-119-1",
+      "name": "Forsvar mot hodeklem bakfra (Tani Otoshi)",
+      "against": "headlock-rear",
+      "sequence": [
+        "tani-otoshi",
+        "hon-kesa-gatame"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "119",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot hodeklem bakfra (Tani Otoshi)</h1>\n<p>Bryt grepet ved å strekke deg opp. Utnytt motpresset ved å kaste Tani Otoshi. Skyv ansiktet bort og fest Hon Kesa Gatame. Avslutt i guard.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-119-2": {
+      "id": "defense-119-2",
+      "name": "Forsvar mot hodeklem bakfra (Yoko Wakare)",
+      "against": "headlock-rear",
+      "sequence": [
+        "yoko-wakare",
+        "yoko-shio-gatame"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "119",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot hodeklem bakfra (Yoko Wakare)</h1>\n<p>Fest grep, roter kroppen og kast Yoko Wakare. Fest Yoko Shio Gatame og avslutt i guard.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-120-1": {
+      "id": "defense-120-1",
+      "name": "Forsvar mot strupetak ved vegg (Hiki Otoshi)",
+      "against": "choke-wall-frontal",
+      "sequence": [
+        "hiki-otoshi"
+      ],
+      "ends_in": "guard",
+      "defense_number": "120",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot strupetak ved vegg (Hiki Otoshi)</h1>\n<p>Bryt grepet på innsiden, fest grep og kast angriper inn mot veggen idet du drar deg rundt. Kne angriper og kaste/felle med Hiki Otoshi.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-120-2": {
+      "id": "defense-120-2",
+      "name": "Forsvar mot strupetak ved vegg (Kibisu Gaeshi)",
+      "against": "choke-wall-frontal",
+      "sequence": [
+        "kibisu-gaeshi"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "120",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot strupetak ved vegg (Kibisu Gaeshi)</h1>\n<p>Start med en uppercut, gå ned på kne og kast Kibisu Gaeshi. Avslutt med slag i skrittet og søk avstand.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-121-1": {
+      "id": "defense-121-1",
+      "name": "Forsvar mot slag/spark (Harai Goshi)",
+      "against": "strike-combo-straight",
+      "sequence": [
+        "gyaku-zuki",
+        "ushiro-ura-mawashi-geri",
+        "harai-goshi"
+      ],
+      "ends_in": "guard",
+      "defense_number": "121",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot slag/spark (Harai Goshi)</h1>\n<h2>Avled med forflytning bakover, kontrer med mae geri, roter og spark Ushiro Ura Mawashi Geri. Kast med Harai Goshi og fest kontrollgrep på magen.</h2>\n<h2>notes: &quot;Mae geri er implisitt i starten av kontringen&quot;</h2>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-121-2": {
+      "id": "defense-121-2",
+      "name": "Forsvar mot slag/spark (Sumi Gaeshi)",
+      "against": "strike-swing-combo",
+      "sequence": [
+        "sumi-gaeshi",
+        "kubi-nage-gatame"
+      ],
+      "ends_in": "guard",
+      "defense_number": "121",
+      "curriculum_levels": [
+        "senior-1-kyu-brown"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Forsvar mot slag/spark (Sumi Gaeshi)</h1>\n<h2>Blokker slag og spark mens du beveger deg bakover. Spark low kick, kast Sumi Gaeshi og rull rundt med Kubi Nage Gatame.</h2>\n<h2>notes: &quot;Inkluderer ben/arm blokk og low kick før kastet&quot;</h2>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-214-1": {
+      "id": "defense-214-1",
+      "name": "Forsvar mot grep i klær (O Soto Gari)",
+      "against": "grab-clothes-frontal",
+      "sequence": [
+        "o-soto-gari",
+        "ude-hishigi-hiza-gatame"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "214",
+      "curriculum_levels": [
+        "senior-2-kyu-blue"
+      ],
+      "sources": [
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>Forsvar mot grep i klær (O Soto Gari)</h1>\n<p>Frigjør grepet ved å presse ned på angriperens arm/albue, kontrer med slag/spark om nødvendig, kaster med O Soto Gari og avslutter med kontrollgrep.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-214-2": {
+      "id": "defense-214-2",
+      "name": "Forsvar mot grep i klær (Harai Goshi)",
+      "against": "grab-clothes-frontal",
+      "sequence": [
+        "harai-goshi",
+        "ude-garami"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "214",
+      "curriculum_levels": [
+        "senior-2-kyu-blue"
+      ],
+      "sources": [
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>Forsvar mot grep i klær (Harai Goshi)</h1>\n<p>Bryt grepet, skap balansebrist, utfør Harai Goshi og avslutt med kontrollgrepet Ude Garami på bakken.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-215-1": {
+      "id": "defense-215-1",
+      "name": "Forsvar mot hårgrep (Kote Gaeshi)",
+      "against": "grab-hair-frontal",
+      "sequence": [
+        "kote-gaeshi"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "215",
+      "curriculum_levels": [
+        "senior-2-kyu-blue"
+      ],
+      "sources": [
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>Forsvar mot hårgrep (Kote Gaeshi)</h1>\n<p>Lås angriperens hånd fast mot ditt eget hode, utfør Kote Gaeshi for å tvinge dem til bakken og avslutt med et kontrollgrep (f.eks. ude hishigi hiza gatame).</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-216-1": {
+      "id": "defense-216-1",
+      "name": "Forsvar mot slagkombinasjon (Blue Belt)",
+      "against": "strike-swing-combo",
+      "sequence": [
+        "s-blokk",
+        "o-soto-gari",
+        "ude-hishigi-hiza-gatame"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "216",
+      "curriculum_levels": [
+        "senior-2-kyu-blue"
+      ],
+      "sources": [
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>Forsvar mot slagkombinasjon (Blue Belt)</h1>\n<p>Forflytting med avledninger, blokkerer sving slag, kontrer med slag/spark kombinasjoner, kaster med O Soto Gari og avslutter med kontrollgrep.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-217-1": {
+      "id": "defense-217-1",
+      "name": "Forsvar fra rygg mot stående angriper",
+      "against": "ground-attack-lying",
+      "sequence": [
+        "tachi-agari"
+      ],
+      "ends_in": "guard",
+      "defense_number": "217",
+      "curriculum_levels": [
+        "senior-2-kyu-blue"
+      ],
+      "sources": [
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>Forsvar fra rygg mot stående angriper</h1>\n<p>Beskytt deg med bena (spark mot ben/kropp), reguler avstand ved å snurre rundt på ryggen, og finn rett tidspunkt for teknisk oppgang til guard.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-309-1": {
+      "id": "defense-309-1",
+      "name": "Forsvar mot strupetak bakfra (Frigjøring)",
+      "against": "choke-rear-arm",
+      "sequence": [
+        "ude-dore-nage"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "309",
+      "curriculum_levels": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Forsvar mot strupetak bakfra (Frigjøring)</h1>\n<p>Utfører frigjøring sideveis ved å krype ut av grepet. Drar angriper ned med Ude Dore Nage og fester kontrollgrep fra samme posisjon.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-309-2": {
+      "id": "defense-309-2",
+      "name": "Forsvar mot strupetak bakfra (Ippon Seio Nage)",
+      "against": "choke-rear-arm",
+      "sequence": [
+        "ippon-seio-nage",
+        "sankaku-jime"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "309",
+      "curriculum_levels": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Forsvar mot strupetak bakfra (Ippon Seio Nage)</h1>\n<p>Kaster angriperen med Ippon Seio Nage, og fester kontrollgrep med bøyning av håndledd (kote dori) og overgang til Sankaku Jime.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-310-1": {
+      "id": "defense-310-1",
+      "name": "Forsvar i bevegelse mot rette slag",
+      "against": "strike-combo-straight",
+      "sequence": [
+        "gyaku-zuki"
+      ],
+      "ends_in": "guard",
+      "defense_number": "310",
+      "curriculum_levels": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Forsvar i bevegelse mot rette slag</h1>\n<p>Demonstreres som en del av forflytningsdrillen. Utøveren skal vise evne til å forsvare seg og kontre mens de er i konstant bevegelse bakover eller sidelengs.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-311-1": {
+      "id": "defense-311-1",
+      "name": "Forsvar mot strupetak fra mount",
+      "against": "ground-choke-mount",
+      "sequence": [
+        "reka"
+      ],
+      "ends_in": "guard",
+      "defense_number": "311",
+      "curriculum_levels": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Forsvar mot strupetak fra mount</h1>\n<p>Bruk armer og hofte (reka) for å få angriper vekk. Bli med rundt og kontroller angriper. Bruk slag/spark hvis mulig. Avslutt i guard.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-312-1": {
+      "id": "defense-312-1",
+      "name": "Forsvar fra guard",
+      "against": "ground-attack-guard",
+      "sequence": [
+        "reka"
+      ],
+      "ends_in": "guard",
+      "defense_number": "312",
+      "curriculum_levels": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Forsvar fra guard</h1>\n<p>Kontroller angriperens armer, bruk bena for å regulere avstand. Bruk spark/slag mot hode/kropp når mulig. Forsøk å komme opp eller snu angriper.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-313-1": {
+      "id": "defense-313-1",
+      "name": "Forsvar fra siden på bakken",
+      "against": "ground-attack-side",
+      "sequence": [
+        "reka"
+      ],
+      "ends_in": "guard",
+      "defense_number": "313",
+      "curriculum_levels": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Forsvar fra siden på bakken</h1>\n<p>Snu deg mot angriper, bruk bena for å beskytte deg og hindre dem i å komme nær. Bruk spark mot ben/kropp. Kom deg opp eller få angriper i guard.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-405-1": {
+      "id": "defense-405-1",
+      "name": "Frigjøring bakover mot strupetak",
+      "against": "neck-grab-frontal",
+      "sequence": [
+        "frigjoring-bakover-hals"
+      ],
+      "ends_in": "guard",
+      "defense_number": "405",
+      "curriculum_levels": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Frigjøring bakover mot strupetak</h1>\n<p>En eksplosiv bevegelse som bryter grepet bakover, samtidig som man beholder kontroll over angriperens håndledd.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-405-2": {
+      "id": "defense-405-2",
+      "name": "Forsvar mot strupetak (Koshi Guruma)",
+      "against": "neck-grab-frontal",
+      "sequence": [
+        "koshi-guruma",
+        "ude-garami"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "405",
+      "curriculum_levels": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Forsvar mot strupetak (Koshi Guruma)</h1>\n<p>Forsvareren bryter grepet på innsiden, kaster angriperen med Koshi Guruma, og fester kontrollgrepet Ude Garami i stående eller sittende posisjon.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-406-1": {
+      "id": "defense-406-1",
+      "name": "Forsvar mot rette slag og sving slag",
+      "against": "strike-swing-combo",
+      "sequence": [
+        "s-blokk",
+        "hiza-geri",
+        "koshi-guruma",
+        "ude-garami"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "406",
+      "curriculum_levels": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Forsvar mot rette slag og sving slag</h1>\n<p>Utfører 2 avledninger mot rette slag bakover, blokkerer sving slag med S-blokk, kontrer med hiza geri, kaster med Koshi Guruma og avslutter med Ude Garami.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-407-1": {
+      "id": "defense-407-1",
+      "name": "Forsvar mot holdegrep (Hon Kesa Gatame)",
+      "against": "hon-kesa-gatame",
+      "sequence": [
+        "reka",
+        "yoko-shio-gatame"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "407",
+      "curriculum_levels": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Forsvar mot holdegrep (Hon Kesa Gatame)</h1>\n<p>Slik går du løs: Lag en ramme med hender, benytt reka, ta benet over hodet til angriper og bryt posisjonen. Avslutt med Yoko Shio Gatame.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-407-2": {
+      "id": "defense-407-2",
+      "name": "Feste kontrollgrep fra Hon Kesa Gatame",
+      "against": "hon-kesa-gatame",
+      "sequence": [
+        "hon-kesa-gatame",
+        "ude-garami"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "407",
+      "curriculum_levels": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Feste kontrollgrep fra Hon Kesa Gatame</h1>\n<p>Slik kan du feste kontrollgrep når du selv holder: Press angripers arm ned i vinkel, hook armen inn med benet, press hodet vekk og fest Ude Garami (variant).</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-408-1": {
+      "id": "defense-408-1",
+      "name": "Forsvar mot holdegrep (Yoko Shio Gatame)",
+      "against": "yoko-shio-gatame",
+      "sequence": [
+        "reka",
+        "tachi-agari"
+      ],
+      "ends_in": "guard",
+      "defense_number": "408",
+      "curriculum_levels": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Forsvar mot holdegrep (Yoko Shio Gatame)</h1>\n<p>Slik går du løs: Bruk en ramme med hendene og &quot;reka&quot; for å skape avstand. Kom deg inn med bena foran angriperen, bruk slag/spark om nødvendig, og kom deg opp i guard via tachi agari.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-408-2": {
+      "id": "defense-408-2",
+      "name": "Feste kontrollgrep fra Yoko Shio Gatame",
+      "against": "yoko-shio-gatame",
+      "sequence": [
+        "yoko-shio-gatame",
+        "ude-garami"
+      ],
+      "ends_in": "ground-control",
+      "defense_number": "408",
+      "curriculum_levels": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Feste kontrollgrep fra Yoko Shio Gatame</h1>\n<p>Slik kan du feste kontrollgrep når du selv holder: Press angripers arm ned i vinkel og fest Ude Garami. Teknikken kan utføres på to måter avhengig av om angriperens håndflate er opp eller ned.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-502-1": {
+      "id": "defense-502-1",
+      "name": "Forsvar mot dytt bakfra (Volt)",
+      "against": "push-rear",
+      "sequence": [
+        "kaiten-mae-ukemi"
+      ],
+      "ends_in": "guard",
+      "defense_number": "502",
+      "curriculum_levels": [
+        "senior-5-kyu-yellow"
+      ],
+      "sources": [
+        {
+          "document": "senior/5-yellow"
+        }
+      ],
+      "html": "<h1>Forsvar mot dytt bakfra (Volt)</h1>\n<p>Ved et dytt bakfra utfører forsvareren en volt forover for å absorbere kraften og raskt komme seg opp i en defensiv guard-posisjon vendt mot angriperen.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-502-2": {
+      "id": "defense-502-2",
+      "name": "Forsvar mot dytt forfra (Volt bakover)",
+      "against": "push-frontal",
+      "sequence": [
+        "kaiten-ushiro-ukemi"
+      ],
+      "ends_in": "guard",
+      "defense_number": "502",
+      "curriculum_levels": [
+        "senior-5-kyu-yellow"
+      ],
+      "sources": [
+        {
+          "document": "senior/5-yellow"
+        }
+      ],
+      "html": "<h1>Forsvar mot dytt forfra (Volt bakover)</h1>\n<p>Ved et dytt forfra utfører forsvareren en volt bakover for å absorbere kraften og raskt komme seg opp i en defensiv guard-posisjon.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-502-3": {
+      "id": "defense-502-3",
+      "name": "Forsvar mot dytt forfra (Ryggfall)",
+      "against": "push-frontal",
+      "sequence": [
+        "ushiro-ukemi",
+        "tachi-agari"
+      ],
+      "ends_in": "guard",
+      "defense_number": "502",
+      "curriculum_levels": [
+        "senior-5-kyu-yellow"
+      ],
+      "sources": [
+        {
+          "document": "senior/5-yellow"
+        }
+      ],
+      "html": "<h1>Forsvar mot dytt forfra (Ryggfall)</h1>\n<p>Et alternativt forsvar mot dytt forfra der forsvareren utfører et ryggfall etterfulgt av en teknisk oppgang for å gjenvinne stående posisjon.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-504-1": {
+      "id": "defense-504-1",
+      "name": "Forsvar mot rette slag (Yellow Belt)",
+      "against": "strike-combo-straight",
+      "sequence": [
+        "gyaku-zuki",
+        "hiki-otoshi",
+        "ude-hishigi-hiza-gatame"
+      ],
+      "ends_in": "guard",
+      "defense_number": "504",
+      "curriculum_levels": [
+        "senior-5-kyu-yellow"
+      ],
+      "sources": [
+        {
+          "document": "senior/5-yellow"
+        }
+      ],
+      "html": "<h1>Forsvar mot rette slag (Yellow Belt)</h1>\n<p>Forsvareren forflytter seg bakover med avledninger, kontrer med samme slagkombinasjon (og eventuelt kne/spark), kaster angriperen med hiki otoshi eller o soto otoshi, og avslutter med kontrollgrep.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-dan-misc-1": {
+      "id": "defense-dan-misc-1",
+      "name": "Forsvar mot omfavning over armer",
+      "against": "bear-hug-frontal",
+      "sequence": [
+        "gyaku-zuki",
+        "tani-otoshi"
+      ],
+      "ends_in": "ground-control",
+      "curriculum_levels": [
+        "senior-1-dan-black"
+      ],
+      "sources": [
+        {
+          "document": "senior/1dan-black"
+        }
+      ],
+      "html": "<h1>Forsvar mot omfavning over armer</h1>\n<p>Senk tyngdepunktet, skap rom ved å bruke hoftene/kroppen, kontrer med slag/støt og kast med Tani Otoshi eller annet sacrifice throw.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "defense-junior-orange-1": {
+      "id": "defense-junior-orange-1",
+      "name": "Forsvar mot grepsforsøk (Junior Oransje)",
+      "against": "push-frontal",
+      "sequence": [
+        "o-soto-otoshi"
+      ],
+      "ends_in": "ground-control",
+      "curriculum_levels": [
+        "junior-orange-mon"
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program"
+        }
+      ],
+      "html": "<h1>Forsvar mot grepsforsøk (Junior Oransje)</h1>\n<p>Hold guard, avled armene til angriperen, utfør en stoppbevegelse og kontre med O soto otoshi.</p>\n",
+      "type": "defenses",
+      "typeLabel": "Forsvar",
+      "related": []
+    },
+    "drill-310-1": {
+      "id": "drill-310-1",
+      "name": "Forflytningsdrill mot rette slag",
+      "domain": "standing",
+      "goal": "Utvikle fotarbeid, timing og avstandskontroll mot kontinuerlige angrep",
+      "partner_required": true,
+      "resistance_level": "moderate",
+      "techniques_trained": [
+        "gyaku-zuki"
+      ],
+      "curriculum_levels": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "310"
+        }
+      ],
+      "html": "<h1>Forflytningsdrill mot rette slag</h1>\n<p>Partneren går kontinuerlig forover med rette slag. Forsvareren forflytter seg bakover med avledninger og kontrer med egne slag/sparkkombinasjoner i bevegelse.</p>\n",
+      "type": "drills",
+      "typeLabel": "Drill",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "drill-503-1": {
+      "id": "drill-503-1",
+      "name": "Bakkebevegelse mot stående angriper",
+      "domain": "ground",
+      "goal": "Utvikle orienteringsevnen og beskyttelse når du befinner deg på bakken",
+      "partner_required": true,
+      "resistance_level": "light",
+      "techniques_trained": [
+        "tachi-agari"
+      ],
+      "curriculum_levels": [
+        "senior-5-kyu-yellow"
+      ],
+      "sources": [
+        {
+          "document": "senior/5-yellow",
+          "notes": "503"
+        }
+      ],
+      "html": "<h1>Bakkebevegelse mot stående angriper</h1>\n<p>Forsvareren sitter i sitteguard mens en partner beveger seg rundt og markerer slag/spark. Forsvareren må beskytte seg, regulere avstand, og bruke teknisk oppgang når mulig.</p>\n",
+      "type": "drills",
+      "typeLabel": "Drill",
+      "domainLabel": "Bakke",
+      "related": []
+    },
+    "drill-dan-ukemi": {
+      "id": "drill-dan-ukemi",
+      "name": "Ukemi Drill (1. Dan)",
+      "domain": "mixed",
+      "goal": "Vise dynamiske falløvelser og overganger",
+      "techniques_trained": [
+        "kaiten-mae-ukemi",
+        "ushiro-ukemi",
+        "yoko-ukemi",
+        "reka"
+      ],
+      "curriculum_levels": [
+        "senior-1-dan-black"
+      ],
+      "sources": [
+        {
+          "document": "senior/1dan-black",
+          "notes": "Tema 1a"
+        }
+      ],
+      "html": "<h1>Ukemi Drill (1. Dan)</h1>\n<p>En sammensatt serie som inkluderer:</p>\n<ol>\n<li>Volt fra stående til stående (forover og bakover).</li>\n<li>Ryggfall med teknisk oppgang.</li>\n<li>Ryggfall til sideveis fall (begge veier).</li>\n<li>Rekabevegelser forover og bakover.</li>\n</ol>\n",
+      "type": "drills",
+      "typeLabel": "Drill",
+      "domainLabel": "mixed",
+      "related": []
+    },
+    "junior-black-mon-1": {
+      "id": "junior-black-mon-1",
+      "name": "Sort 1 Belte (Junior)",
+      "track": "junior",
+      "program": "mon-master",
+      "belt_color": "black-mon-1",
+      "rank": "black-mon-1",
+      "order": 19,
+      "sources": [
+        {
+          "document": "junior/master-program"
+        }
+      ],
+      "prerequisite_level": "junior-brown-2-mon",
+      "grading_test": "junior-black-mon-1-test",
+      "html": "<h1>Sort 1 Belte (Junior)</h1>\n<p>Det første mester-nivået for juniorer. Krever perfekt teknisk utførelse og evne til å sette sammen realistiske serier.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-black-mon-2": {
+      "id": "junior-black-mon-2",
+      "name": "Sort 2 Belte (Junior)",
+      "track": "junior",
+      "program": "mon-master",
+      "belt_color": "black-mon-2",
+      "rank": "black-mon-2",
+      "order": 20,
+      "sources": [
+        {
+          "document": "junior/master-program"
+        }
+      ],
+      "prerequisite_level": "junior-black-mon-1",
+      "grading_test": "junior-black-mon-2-test",
+      "html": "<h1>Sort 2 Belte (Junior)</h1>\n<p>Den høyeste junior-graden før overgang til senior. Krever dyp teknisk forståelse og analyse.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-blue-1-stripe": {
+      "id": "junior-blue-1-stripe",
+      "name": "Blått Belte m/1 rød stripe (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "blue-1-stripe",
+      "rank": "mon 1 (part 2)",
+      "order": 13,
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "prerequisite_level": "junior-blue-mon",
+      "grading_test": "junior-blue-test-1-stripe",
+      "html": "<h1>Blått Belte m/1 rød stripe (Junior)</h1>\n<p>Videreutvikling av forflytningsdriller og kombinasjoner av 6 spark.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-blue-2-stripe": {
+      "id": "junior-blue-2-stripe",
+      "name": "Blått Belte m/2 røde striper (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "blue-2-stripe",
+      "rank": "mon 1 (part 3)",
+      "order": 14,
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "prerequisite_level": "junior-blue-1-stripe",
+      "grading_test": "junior-blue-test-2-stripe",
+      "html": "<h1>Blått Belte m/2 røde striper (Junior)</h1>\n<p>Inkluderer 12-teknikk serie (6 slag + 6 spark) og forsvar mot strupetak med ippon seio nage.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-blue-mon": {
+      "id": "junior-blue-mon",
+      "name": "Blått Belte (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "blue",
+      "rank": "mon 1",
+      "order": 12,
+      "min_training_months": 12,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Blått belte junior"
+        }
+      ],
+      "prerequisite_level": "junior-green-2-stripe",
+      "grading_test": "junior-blue-mon-test",
+      "html": "<h1>Blått Belte (Junior)</h1>\n<p>Høyeste mon-grad i det grønne programmet. Inkluderer Juji gatame fra guard.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "juji-gatame",
+          "title": "Korsarmlås",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-brown-1-stripe": {
+      "id": "junior-brown-1-stripe",
+      "name": "Brunt Belte m/1 rød stripe (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "brown-1-stripe",
+      "rank": "brown-mon-1 (part 2)",
+      "order": 16,
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "prerequisite_level": "junior-brown-mon",
+      "grading_test": "junior-brown-test-1-stripe",
+      "html": "<h1>Brunt Belte m/1 rød stripe (Junior)</h1>\n<p>Introduserer Tomoe nage og Ushiro geri (bakoverspark).</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "ushiro-geri",
+          "title": "Bakoverspark",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-brown-2-mon": {
+      "id": "junior-brown-2-mon",
+      "name": "Brunt 2 Belte (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "brown-2",
+      "rank": "brown-mon-2",
+      "order": 18,
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "prerequisite_level": "junior-brown-2-stripe",
+      "grading_test": "junior-brown-2-mon-test",
+      "html": "<h1>Brunt 2 Belte (Junior)</h1>\n<p>Siste steg før Master-programmet. Introduserer Sukui nage og de ashi barai.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "de-ashi-barai",
+          "title": "Fotfeid (Fremste fot)",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-brown-2-stripe": {
+      "id": "junior-brown-2-stripe",
+      "name": "Brunt Belte m/2 røde striper (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "brown-2-stripe",
+      "rank": "brown-mon-1 (part 3)",
+      "order": 17,
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "prerequisite_level": "junior-brown-1-stripe",
+      "grading_test": "junior-brown-test-2-stripe",
+      "html": "<h1>Brunt Belte m/2 røde striper (Junior)</h1>\n<p>Introduserer Yoko wakare og sirkulære spark (ushiro ura mawashi geri).</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-brown-mon": {
+      "id": "junior-brown-mon",
+      "name": "Brunt Belte (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "brown",
+      "rank": "brown-mon-1",
+      "order": 15,
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "prerequisite_level": "junior-blue-2-stripe",
+      "grading_test": "junior-brown-mon-test",
+      "html": "<h1>Brunt Belte (Junior)</h1>\n<p>Introduserer Harai goshi og uraken (bakfist). Full forflytningsdrill kreves.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "uraken",
+          "title": "Bakside knyttneve-slag",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-green-1-stripe": {
+      "id": "junior-green-1-stripe",
+      "name": "Grønt Belte m/1 rød stripe (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "green-1-stripe",
+      "rank": "mon 3",
+      "order": 10,
+      "min_training_months": 6,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Mon program level 1"
+        }
+      ],
+      "prerequisite_level": "junior-green-mon",
+      "grading_test": "junior-green-test-1-stripe",
+      "html": "<h1>Grønt Belte m/1 rød stripe (Junior)</h1>\n<p>Fokus på strupetak forfra og mer avanserte slagkombinasjoner.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-green-2-stripe": {
+      "id": "junior-green-2-stripe",
+      "name": "Grønt Belte m/2 røde striper (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "green-2-stripe",
+      "rank": "mon 2",
+      "order": 11,
+      "min_training_months": 6,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Mon program level 2"
+        }
+      ],
+      "prerequisite_level": "junior-green-1-stripe",
+      "grading_test": "junior-green-test-2-stripe",
+      "html": "<h1>Grønt Belte m/2 røde striper (Junior)</h1>\n<p>Introduserer Ippon seio nage og forsvar mot hårtak forfra.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-green-mon": {
+      "id": "junior-green-mon",
+      "name": "Grønt Belte (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "green",
+      "rank": "mon 4",
+      "order": 9,
+      "min_training_months": 12,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Grønt belte junior"
+        }
+      ],
+      "prerequisite_level": "junior-orange-2-stripe",
+      "grading_test": "junior-green-mon-test",
+      "html": "<h1>Grønt Belte (Junior)</h1>\n<p>Introduserer O goshi (hoftekast) og forsvar mot omfavnelser.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "o-goshi",
+          "title": "Stort hoftekast",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-orange-1-stripe": {
+      "id": "junior-orange-1-stripe",
+      "name": "Oransje Belte m/1 rød stripe (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "orange-1-stripe",
+      "rank": "mon 6",
+      "order": 7,
+      "min_training_months": 6,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Mon program level 1"
+        }
+      ],
+      "prerequisite_level": "junior-orange-mon",
+      "grading_test": "junior-orange-test-1-stripe",
+      "html": "<h1>Oransje Belte m/1 rød stripe (Junior)</h1>\n<p>Introduserer fellingen Hiki otoshi og stående volt forover.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-orange-2-stripe": {
+      "id": "junior-orange-2-stripe",
+      "name": "Oransje Belte m/2 røde striper (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "orange-2-stripe",
+      "rank": "mon 5",
+      "order": 8,
+      "min_training_months": 6,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Mon program level 2"
+        }
+      ],
+      "prerequisite_level": "junior-orange-1-stripe",
+      "grading_test": "junior-orange-test-2-stripe",
+      "html": "<h1>Oransje Belte m/2 røde striper (Junior)</h1>\n<p>Fokus på kombinasjoner mellom O soto otoshi og hiki otoshi, samt stående volt bakover.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-orange-mon": {
+      "id": "junior-orange-mon",
+      "name": "Oransje Belte (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "orange",
+      "rank": "mon 7",
+      "order": 6,
+      "min_training_months": 12,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Oransje belte junior"
+        }
+      ],
+      "prerequisite_level": "junior-yellow-2-stripe",
+      "grading_test": "junior-orange-mon-test",
+      "html": "<h1>Oransje Belte (Junior)</h1>\n<p>Introduserer fellingen O soto otoshi og stående forsvar mot grepsforsøk.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-white-1-stripe": {
+      "id": "junior-white-1-stripe",
+      "name": "Hvitt Belte m/1 rød stripe (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "white-1-stripe",
+      "rank": "mon 12",
+      "order": 1,
+      "min_training_months": 3,
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Stripetest 1"
+        }
+      ],
+      "prerequisite_level": "junior-white-belt",
+      "grading_test": "junior-white-test-1-stripe",
+      "html": "<h1>Hvitt Belte m/1 rød stripe (Junior)</h1>\n<p>Krever forståelse for bekledning, hilsing, grunnleggende stillinger (Yoi, Kamai) og rette slag (Kizami zuki, Gyaku zuki).</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "gyaku-zuki",
+          "title": "Slag med bakerste hånd",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "kizami-zuki",
+          "title": "Slag med fremste hånd",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-white-2-stripe": {
+      "id": "junior-white-2-stripe",
+      "name": "Hvitt Belte m/2 røde striper (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "white-2-stripe",
+      "rank": "mon 11",
+      "order": 2,
+      "min_training_months": 3,
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Stripetest 2"
+        }
+      ],
+      "prerequisite_level": "junior-white-1-stripe",
+      "grading_test": "junior-white-test-2-stripe",
+      "html": "<h1>Hvitt Belte m/2 røde striper (Junior)</h1>\n<p>Inkluderer mae geri (rett spark) og grunnleggende yoko ukemi (sideveis fall) fra sittende posisjon.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "mae-geri",
+          "title": "Rett spark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "yoko-ukemi",
+          "title": "Sideveis Fall",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-white-belt": {
+      "id": "junior-white-belt",
+      "name": "Hvitt Belte (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "white",
+      "rank": "mon 13",
+      "order": 0,
+      "min_training_months": 0,
+      "etiquette_required": [
+        "Disiplin (fokus på oppgaver)",
+        "Respekt (for instruktører og partnere)",
+        "Ydmykhet",
+        "Årvåkenhet (zanshin)"
+      ],
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "JJN Ju jitsu Junior"
+        }
+      ],
+      "html": "<h1>Hvitt Belte (Junior)</h1>\n<p>Dette er starten på din Ju jitsu karriere. Fokus er på dojo etikette, grunnleggende stillinger og enkle slag.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-yellow-1-stripe": {
+      "id": "junior-yellow-1-stripe",
+      "name": "Gult Belte m/1 rød stripe (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "yellow-1-stripe",
+      "rank": "mon 9",
+      "order": 4,
+      "min_training_months": 6,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Mon program level 1"
+        }
+      ],
+      "prerequisite_level": "junior-yellow-mon",
+      "grading_test": "junior-yellow-test-1-stripe",
+      "html": "<h1>Gult Belte m/1 rød stripe (Junior)</h1>\n<p>Videreutvikling av teknikker fra gult belte. Introduserer yoko geri (sidespark) og kombinert bakkearbeid.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "yoko-geri",
+          "title": "Sidespark",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "junior-yellow-2-stripe": {
+      "id": "junior-yellow-2-stripe",
+      "name": "Gult Belte m/2 røde striper (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "yellow-2-stripe",
+      "rank": "mon 8",
+      "order": 5,
+      "min_training_months": 6,
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Mon program level 2"
+        }
+      ],
+      "prerequisite_level": "junior-yellow-1-stripe",
+      "grading_test": "junior-yellow-test-2-stripe",
+      "html": "<h1>Gult Belte m/2 røde striper (Junior)</h1>\n<p>Fokus på hiza geri (knepark) og tate shio gatame (sittende holdegrep).</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "junior-yellow-mon": {
+      "id": "junior-yellow-mon",
+      "name": "Gult Belte (Junior)",
+      "track": "junior",
+      "program": "mon",
+      "belt_color": "yellow",
+      "rank": "mon 10",
+      "order": 3,
+      "min_training_months": 6,
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Gult belte junior"
+        }
+      ],
+      "prerequisite_level": "junior-white-2-stripe",
+      "grading_test": "junior-yellow-mon-test",
+      "html": "<h1>Gult Belte (Junior)</h1>\n<p>Det første fargede beltet for juniorer. Krever mawashi geri (rundspark), ryggfall og hon kesa gatame med kontroll.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "hon-kesa-gatame",
+          "title": "Holdegrep fra siden (hode)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "mawashi-geri",
+          "title": "Rundspark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "ushiro-ukemi",
+          "title": "Ryggfall",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "senior-1-dan-black": {
+      "id": "senior-1-dan-black",
+      "name": "1. Dan Sort Belte (Senior)",
+      "track": "senior",
+      "program": "dan",
+      "belt_color": "black",
+      "rank": "1 dan",
+      "order": 6,
+      "min_training_months": 18,
+      "min_frequency": "2-3 ganger per uke",
+      "etiquette_required": [
+        "Fremstå som en leder og et forbilde",
+        "Dyp forståelse for JJN's prinsipper",
+        "Høy grad av teknisk presisjon og modenhet"
+      ],
+      "sources": [
+        {
+          "document": "senior/1dan-black",
+          "notes": "JJN Ju jitsu 2022"
+        }
+      ],
+      "prerequisite_level": "senior-1-kyu-brown",
+      "grading_test": "senior-1-dan-black-test",
+      "html": "<h1>1. Dan Sort Belte (Senior)</h1>\n<p>Sort belte markerer slutten på elevgradene og starten på mestergradene. Det kreves full oversikt over hele JJN-systemet, evne til å konstruere egne løsninger og vise flyt under press.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": []
+    },
+    "senior-1-kyu-brown": {
+      "id": "senior-1-kyu-brown",
+      "name": "1. Kyu Brunt Belte (Senior)",
+      "track": "senior",
+      "program": "kyu",
+      "belt_color": "brown",
+      "rank": "1 kyu",
+      "order": 5,
+      "min_training_months": 12,
+      "min_frequency": "3 ganger per uke",
+      "etiquette_required": [
+        "Vise meget god budoetikette",
+        "Fremstå som et forbilde for lavere graderte",
+        "God innsikt i JJN systemet og prinsipper"
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "prerequisite_level": "senior-2-kyu-blue",
+      "grading_test": "senior-1-kyu-brown-test",
+      "html": "<h1>1. Kyu Brunt Belte (Senior)</h1>\n<p>Brunt belte er den høyeste kyu-graden før sort belte. Det kreves høy teknisk perfeksjon, modenhet i utførelsen og evnen til å spesialisere seg innenfor visse teknikkområder.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "kibisu-gaeshi",
+          "title": "Ankelfelling",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "kubi-nage-gatame",
+          "title": "Kontrollgrep (Hals)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "morote-gari",
+          "title": "Dobbelthånds benkast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "sumi-gaeshi",
+          "title": "Hjørnekast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "tani-otoshi",
+          "title": "Bakoverfallkast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "tomoe-nage",
+          "title": "Mavekast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "ushiro-ura-mawashi-geri",
+          "title": "Roterende baksiden av fot spark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "yoko-otoshi",
+          "title": "Sidefallkast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "yoko-wakare",
+          "title": "Sideveis rullekast",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "senior-2-kyu-blue": {
+      "id": "senior-2-kyu-blue",
+      "name": "2. Kyu Blått Belte (Senior)",
+      "track": "senior",
+      "program": "kyu",
+      "belt_color": "blue",
+      "rank": "2 kyu",
+      "order": 4,
+      "min_training_months": 12,
+      "min_frequency": "2-3 ganger per uke",
+      "etiquette_required": [
+        "Vise god budoetikette",
+        "God teknisk forståelse og flyt"
+      ],
+      "sources": [
+        {
+          "document": "senior/2-blue",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "prerequisite_level": "senior-3-kyu-green",
+      "grading_test": "senior-2-kyu-blue-test",
+      "html": "<h1>2. Kyu Blått Belte (Senior)</h1>\n<p>Blått belte krever høy teknisk kvalitet, hurtighet og kraft i utførelsen. Pensum inkluderer forsvar mot grep i klær og hår, mer avanserte kast og bakkeforsvar fra liggende posisjon.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "harai-goshi",
+          "title": "Hoftekast (Feiende)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "kote-gaeshi",
+          "title": "Håndleddsvridning (Utover)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "o-soto-gari",
+          "title": "Benkast (Feiende)",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "senior-3-kyu-green": {
+      "id": "senior-3-kyu-green",
+      "name": "3. Kyu Grønt Belte (Senior)",
+      "track": "senior",
+      "program": "kyu",
+      "belt_color": "green",
+      "rank": "3 kyu",
+      "order": 3,
+      "min_training_months": 12,
+      "min_frequency": "2-3 ganger per uke",
+      "etiquette_required": [
+        "Vise god budoetikette",
+        "Bruk av verneutstyr og boksehansker"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "prerequisite_level": "senior-4-kyu-orange",
+      "grading_test": "senior-3-kyu-green-test",
+      "html": "<h1>3. Kyu Grønt Belte (Senior)</h1>\n<p>Grønt belte markerer en betydelig utvikling i utøverens tekniske repertoar. Det legges stor vekt på slag- og sparkkombinasjoner, forflytningsdrill, frisparring og mer avanserte fellinger og bakkeforsvar.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "ippon-seio-nage",
+          "title": "Skulderkast (Ett-arms)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "sankaku-jime",
+          "title": "Trekantlås",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "sukui-nage",
+          "title": "Øsekast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "ude-dore-nage",
+          "title": "Neddragning av arm",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "senior-4-kyu-orange": {
+      "id": "senior-4-kyu-orange",
+      "name": "4. Kyu Oransje Belte (Senior)",
+      "track": "senior",
+      "program": "kyu",
+      "belt_color": "orange",
+      "rank": "4 kyu",
+      "order": 2,
+      "min_training_months": 4,
+      "min_frequency": "2-3 ganger per uke",
+      "etiquette_required": [
+        "Vise god budoetikette",
+        "God innsikt i basisteknikker"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "prerequisite_level": "senior-5-kyu-yellow",
+      "grading_test": "senior-4-kyu-orange-test",
+      "html": "<h1>4. Kyu Oransje Belte (Senior)</h1>\n<p>Oransje belte krever en dypere forståelse av basisteknikker og evnen til å håndtere mer komplekse angrepsformer, inkludert halsgrep og bakkeforsvar.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "frigjoring-bakover-hals",
+          "title": "Frigjøring bakover (hals)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "hiza-geri",
+          "title": "Knepark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "juji-gatame",
+          "title": "Korsarmlås",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "koshi-guruma",
+          "title": "Hoftekast (Hode)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "o-goshi",
+          "title": "Stort hoftekast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "reka",
+          "title": "Reka (Hoftebevegelse)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "s-blokk",
+          "title": "S-blokk",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "ude-garami",
+          "title": "Kontrollgrep (Ude Garami)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "ushiro-geri",
+          "title": "Bakoverspark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "yoko-shio-gatame",
+          "title": "Holdegrep fra siden (hofte)",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "senior-5-kyu-yellow": {
+      "id": "senior-5-kyu-yellow",
+      "name": "5. Kyu Gult Belte (Senior)",
+      "track": "senior",
+      "program": "kyu",
+      "belt_color": "yellow",
+      "rank": "5 kyu",
+      "order": 1,
+      "min_training_months": 3,
+      "min_frequency": "2 ganger per uke",
+      "etiquette_required": [
+        "Knyte belte (Obi) med riktig knute",
+        "Vise god budoetikette",
+        "Korrekte hilsninger mot instruktører og kolleger",
+        "Ren drakt (Gi) med JJN merker"
+      ],
+      "sources": [
+        {
+          "document": "senior/5-yellow",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "grading_test": "senior-5-kyu-yellow-test",
+      "html": "<h1>5. Kyu Gult Belte (Senior)</h1>\n<p>Gult belte er den første graden i JJN Ju Jitsu etter nybegynnerstadiet. Det fokuseres på grunnleggende tekniske elementer, fallteknikk, og forsvar mot enkle angrepsformer.</p>\n",
+      "type": "levels",
+      "typeLabel": "Gradering",
+      "related": [
+        {
+          "id": "de-ashi-barai",
+          "title": "Fotfeid (Fremste fot)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "gyaku-zuki",
+          "title": "Slag med bakerste hånd",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "hiki-otoshi",
+          "title": "Nedragning",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "hiza-geri",
+          "title": "Knepark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "hon-kesa-gatame",
+          "title": "Holdegrep fra siden (hode)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "kaiten-mae-ukemi",
+          "title": "Volt Forover",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "kaiten-ushiro-ukemi",
+          "title": "Volt Bakover",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "kizami-zuki",
+          "title": "Slag med fremste hånd",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "mae-geri",
+          "title": "Rett spark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "mawashi-geri",
+          "title": "Rundspark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "o-soto-otoshi",
+          "title": "Benkast",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "reka",
+          "title": "Reka (Hoftebevegelse)",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "tachi-agari",
+          "title": "Teknisk oppgang",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "ude-hishigi-hiza-gatame",
+          "title": "Stående kontrollgrep mot liggende angriper",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "uraken",
+          "title": "Bakside knyttneve-slag",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "ushiro-ukemi",
+          "title": "Ryggfall",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "yoko-geri",
+          "title": "Sidespark",
+          "relation": "Inneholder teknikk"
+        },
+        {
+          "id": "yoko-ukemi",
+          "title": "Sideveis Fall",
+          "relation": "Inneholder teknikk"
+        }
+      ]
+    },
+    "guard": {
+      "id": "guard",
+      "name": "Guard / Kamai",
+      "domain": "standing",
+      "category": "guard",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 2"
+        },
+        {
+          "document": "senior/5-yellow",
+          "notes": "Åpne hender, dekker hodet, god balanse"
+        }
+      ],
+      "html": "<h1>Guard (Kamai)</h1>\n<p>Den primære defensive beredskapsstillingen i Ju Jitsu, med åpne hender og en stabil base som muliggjør både forsvar og kontring.</p>\n",
+      "type": "positions",
+      "typeLabel": "Posisjon",
+      "domainLabel": "Stående",
+      "related": []
+    },
+    "sitting-guard": {
+      "id": "sitting-guard",
+      "name": "Sitteguard",
+      "domain": "ground",
+      "category": "guard",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 5"
+        },
+        {
+          "document": "senior/5-yellow",
+          "notes": "Forsvarsposisjon på bakken"
+        }
+      ],
+      "html": "<h1>Sitteguard</h1>\n<p>En defensiv posisjon på bakken der forsvareren sitter oppreist med bena mellom seg og angriperen for å kontrollere avstand og beskytte seg mot angrep.</p>\n",
+      "type": "positions",
+      "typeLabel": "Posisjon",
+      "domainLabel": "Bakke",
+      "related": []
+    },
+    "de-ashi-barai": {
+      "id": "de-ashi-barai",
+      "name": "Fotfeid (Fremste fot)",
+      "japanese": "de ashi barai",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-brown-2-mon",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "junior/black-belt-program",
+          "notes": "Junior Brown 2 Mon"
+        }
+      ],
+      "html": "<h1>De Ashi Barai (Fotfeid)</h1>\n<p>Et timing-basert svep av angriperens fremste fot idet de tar et steg.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-brown-2-mon",
+          "title": "Brunt 2 Belte (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "frigjoring-bakover-hals": {
+      "id": "frigjoring-bakover-hals",
+      "name": "Frigjøring bakover (hals)",
+      "category": "sabaki",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-4-kyu-orange"
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange"
+        }
+      ],
+      "html": "<h1>Frigjøring bakover (hals)</h1>\n<p>En spesifikk bevegelse for å bryte et strupetak forfra ved å bevege seg bakover og skape press på angriperens grep.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "gyaku-zuki": {
+      "id": "gyaku-zuki",
+      "name": "Slag med bakerste hånd",
+      "japanese": "gyaku zuki",
+      "category": "tsuki",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-white-1-stripe",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 3",
+          "notes": "Kjerneteknikk som brukes i mange sammenhenger"
+        }
+      ],
+      "html": "<h1>Gyaku Zuki</h1>\n<p>Et fundamentalt slag utført med bakerste hånd, ofte brukt som kontring etter forflytning eller avledning.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-white-1-stripe",
+          "title": "Hvitt Belte m/1 rød stripe (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "harai-goshi": {
+      "id": "harai-goshi",
+      "name": "Hoftekast (Feiende)",
+      "japanese": "harai goshi",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-2-kyu-blue"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>Harai Goshi (Feiende hoftekast)</h1>\n<p>Et avansert hoftekast der man bruker benet til å feie angriperens ben samtidig som man roterer dem over hoften.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-2-kyu-blue",
+          "title": "2. Kyu Blått Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "hiki-otoshi": {
+      "id": "hiki-otoshi",
+      "name": "Nedragning",
+      "japanese": "hiki otoshi",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        }
+      ],
+      "html": "<h1>Hiki Otoshi</h1>\n<p>En felling der man utnytter angriperens bevegelse eller balansebrist for å dra dem kontrollert til bakken.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "hiza-geri": {
+      "id": "hiza-geri",
+      "name": "Knepark",
+      "japanese": "hiza geri",
+      "category": "keri",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-5-kyu-yellow",
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 3"
+        }
+      ],
+      "html": "<h1>Knepark (Hiza Geri)</h1>\n<p>Et kraftfullt støt med kneet, ofte rettet mot motstanderens kropp eller lår i nærkamp.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "hon-kesa-gatame": {
+      "id": "hon-kesa-gatame",
+      "name": "Holdegrep fra siden (hode)",
+      "japanese": "hon kesa gatame",
+      "category": "osae",
+      "domain": "ground",
+      "introduced_at": [
+        "junior-yellow-mon",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-5-ne-waza",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 5",
+          "notes": "Kjerneteknikk for fastholdning"
+        }
+      ],
+      "html": "<h1>Hon Kesa Gatame</h1>\n<p>Et grunnleggende holdegrep fra siden der man kontrollerer angriperens hode og arm, noe som gir god kontroll og visuell oversikt over omgivelsene.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Bakke",
+      "related": [
+        {
+          "id": "junior-yellow-mon",
+          "title": "Gult Belte (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "ippon-seio-nage": {
+      "id": "ippon-seio-nage",
+      "name": "Skulderkast (Ett-arms)",
+      "japanese": "ippon seio nage",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-3-kyu-green"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Ippon Seio Nage (Ett-arms skulderkast)</h1>\n<p>Et kraftfullt kast der man låser angriperens arm over egen skulder og roterer dem over ryggen.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-3-kyu-green",
+          "title": "3. Kyu Grønt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "juji-gatame": {
+      "id": "juji-gatame",
+      "name": "Korsarmlås",
+      "japanese": "juji gatame",
+      "category": "gatame",
+      "domain": "ground",
+      "introduced_at": [
+        "junior-blue-mon",
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-5-ne-waza",
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Junior Blue Mon"
+        }
+      ],
+      "html": "<h1>Juji Gatame (Korsarmlås)</h1>\n<p>En av de mest effektive armlåsene, der angriperens arm strekkes over forsvarerens hofte mens bena låser overkroppen.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Bakke",
+      "related": [
+        {
+          "id": "junior-blue-mon",
+          "title": "Blått Belte (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "kaiten-mae-ukemi": {
+      "id": "kaiten-mae-ukemi",
+      "name": "Volt Forover",
+      "japanese": "kaiten mae ukemi",
+      "category": "ukemi",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-1-ukemi",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 1"
+        },
+        {
+          "document": "senior/5-yellow",
+          "notes": "Fra stående til stående posisjon"
+        }
+      ],
+      "html": "<h1>Volt Forover (Kaiten Mae Ukemi)</h1>\n<p>En rullende fallteknikk forover som brukes for å absorbere kraft fra dytt eller kast, og raskt komme seg tilbake i stående beredskap.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "kaiten-ushiro-ukemi": {
+      "id": "kaiten-ushiro-ukemi",
+      "name": "Volt Bakover",
+      "japanese": "kaiten ushiro ukemi",
+      "category": "ukemi",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-1-ukemi",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 1"
+        },
+        {
+          "document": "senior/5-yellow",
+          "notes": "Fra stående til stående posisjon"
+        }
+      ],
+      "html": "<h1>Volt Bakover (Kaiten Ushiro Ukemi)</h1>\n<p>En rullende fallteknikk bakover som brukes for å absorbere kraft fra dytt forfra, og raskt vende tilbake til en stående defensiv posisjon.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "kibisu-gaeshi": {
+      "id": "kibisu-gaeshi",
+      "name": "Ankelfelling",
+      "japanese": "kibisu gaeshi",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Kibisu Gaeshi (Ankelfelling)</h1>\n<p>En felling der man griper angriperens ankel eller hæl og dytter dem bakover.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "kizami-zuki": {
+      "id": "kizami-zuki",
+      "name": "Slag med fremste hånd",
+      "japanese": "kizami zuki",
+      "category": "tsuki",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-white-1-stripe",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-1-tsuki",
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Junior White 1-stripe"
+        }
+      ],
+      "html": "<h1>Kizami Zuki (Slag med fremste hånd)</h1>\n<p>Et raskt slag med den fremste hånden fra kampstilling. Brukes ofte til å avlede eller starte en kombinasjon.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-white-1-stripe",
+          "title": "Hvitt Belte m/1 rød stripe (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "koshi-guruma": {
+      "id": "koshi-guruma",
+      "name": "Hoftekast (Hode)",
+      "japanese": "koshi guruma",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/4-orange",
+          "notes": "Kast hvor armen legges rundt hode"
+        }
+      ],
+      "html": "<h1>Koshi Guruma</h1>\n<p>Et hoftekast der man tar tak rundt angriperens nakke/hode og roterer dem over egen hofte.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "kote-gaeshi": {
+      "id": "kote-gaeshi",
+      "name": "Håndleddsvridning (Utover)",
+      "japanese": "kote gaeshi",
+      "category": "gatame",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-2-kyu-blue"
+      ],
+      "part_of_group": "gruppe-6-gatame",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 6"
+        },
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>Kote Gaeshi (Håndleddsvridning utover)</h1>\n<p>En effektiv leddlås der man vrir angriperens håndledd utover for å kontrollere dem eller tvinge dem til bakken.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-2-kyu-blue",
+          "title": "2. Kyu Blått Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "kubi-nage-gatame": {
+      "id": "kubi-nage-gatame",
+      "name": "Kontrollgrep (Hals)",
+      "japanese": "kubi nage gatame",
+      "category": "gatame",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-6-gatame",
+      "safety_note": "Vær forsiktig med nakken til partneren, ikke legg for mye press.",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 6"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Kubi Nage Gatame</h1>\n<p>Et kontrollgrep i stående posisjon der man kontrollerer angriperens hode/nakke etter et kast eller frigjøring.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "mae-geri": {
+      "id": "mae-geri",
+      "name": "Rett spark",
+      "japanese": "mae geri",
+      "category": "keri",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-white-2-stripe",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Junior White 2-stripe"
+        }
+      ],
+      "html": "<h1>Mae Geri (Rett spark)</h1>\n<p>Et grunnleggende rett spark som utføres ved å løfte kneet og dytte ut ballen på foten.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-white-2-stripe",
+          "title": "Hvitt Belte m/2 røde striper (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "mawashi-geri": {
+      "id": "mawashi-geri",
+      "name": "Rundspark",
+      "japanese": "mawashi geri",
+      "category": "keri",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-yellow-mon",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Junior Yellow Mon"
+        }
+      ],
+      "html": "<h1>Mawashi Geri (Rundspark)</h1>\n<p>Et sirkulært spark som treffer med vristen eller skinnebenet. Kan utføres mot ben (gedan), kropp (chudan) eller hode (jodan).</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-yellow-mon",
+          "title": "Gult Belte (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "morote-gari": {
+      "id": "morote-gari",
+      "name": "Dobbelthånds benkast",
+      "japanese": "morote gari",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Morote Gari (Dobbelthånds benkast)</h1>\n<p>Et takedown der man griper begge bena til angriperen og løfter/skyver dem til bakken.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "o-goshi": {
+      "id": "o-goshi",
+      "name": "Stort hoftekast",
+      "japanese": "o goshi",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-green-mon",
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Junior Green Mon"
+        }
+      ],
+      "html": "<h1>O Goshi (Stort hoftekast)</h1>\n<p>Et fundamentalt hoftekast der man griper rundt angriperens rygg og løfter dem over hoften.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-green-mon",
+          "title": "Grønt Belte (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "o-soto-gari": {
+      "id": "o-soto-gari",
+      "name": "Benkast (Feiende)",
+      "japanese": "o soto gari",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-2-kyu-blue"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/2-blue"
+        }
+      ],
+      "html": "<h1>O Soto Gari (Store ytre feiing)</h1>\n<p>Et kraftig benkast der man feier bort angriperens støtteben bakfra.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-2-kyu-blue",
+          "title": "2. Kyu Blått Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "o-soto-otoshi": {
+      "id": "o-soto-otoshi",
+      "name": "Benkast",
+      "japanese": "o soto otoshi",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4",
+          "notes": "Grunnleggende all-round kast"
+        }
+      ],
+      "html": "<h1>O Soto Otoshi</h1>\n<p>Et allsidig benkast som kan brukes i mange situasjoner for å kontrollert felle en angriper til bakken.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "reka": {
+      "id": "reka",
+      "name": "Reka (Hoftebevegelse)",
+      "category": "ukemi",
+      "domain": "ground",
+      "introduced_at": [
+        "senior-5-kyu-yellow",
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-5-ne-waza",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 5",
+          "notes": "Sentrale bevegelser når du blir holdt fast nede"
+        }
+      ],
+      "html": "<h1>Reka (Hoftebevegelse)</h1>\n<p>En fundamental hoftebevegelse på bakken som brukes for å skape avstand, gjenvinne posisjon eller unnslippe holdegrep.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Bakke",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "s-blokk": {
+      "id": "s-blokk",
+      "name": "S-blokk",
+      "category": "sabaki",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-2-sabaki",
+      "sources": [
+        {
+          "document": "senior/4-orange",
+          "notes": "Brukes mot sving slag"
+        }
+      ],
+      "html": "<h1>S-blokk</h1>\n<p>En sirkulær blokkering som brukes for å avlede eller stoppe svingende slag (hooks) på innsiden.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "sankaku-jime": {
+      "id": "sankaku-jime",
+      "name": "Trekantlås",
+      "japanese": "sankaku-jime",
+      "category": "gatame",
+      "domain": "ground",
+      "introduced_at": [
+        "senior-3-kyu-green"
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "Brukt i kombinasjon med kote dori"
+        }
+      ],
+      "html": "<h1>Sankaku Jime (Trekantlås)</h1>\n<p>En kontroll- eller kveleteknikk der man bruker bena i en trekantformasjon rundt angriperens hode og arm.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Bakke",
+      "related": [
+        {
+          "id": "senior-3-kyu-green",
+          "title": "3. Kyu Grønt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "sukui-nage": {
+      "id": "sukui-nage",
+      "name": "Øsekast",
+      "japanese": "sukui nage",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-3-kyu-green"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Sukui Nage (Øsekast)</h1>\n<p>Et kast der man &quot;øser&quot; opp angriperens ben eller kropp for å felle dem bakover eller til siden.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-3-kyu-green",
+          "title": "3. Kyu Grønt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "sumi-gaeshi": {
+      "id": "sumi-gaeshi",
+      "name": "Hjørnekast",
+      "japanese": "sumi gaeshi",
+      "category": "nage",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "is_sutemi": true,
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Sumi Gaeshi (Hjørnekast)</h1>\n<p>Et rullekast der man setter foten i angriperens lår og faller bakover for å kaste dem over det ene hjørnet/skulderen.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "tachi-agari": {
+      "id": "tachi-agari",
+      "name": "Teknisk oppgang",
+      "japanese": "tachi agari",
+      "category": "ukemi",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-1-ukemi",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 1",
+          "notes": "Reise seg opp både forover og bakover"
+        },
+        {
+          "document": "senior/5-yellow",
+          "notes": "Overgangen fra sittende posisjon til stående posisjon flytende"
+        }
+      ],
+      "html": "<h1>Teknisk Oppgang (Tachi Agari)</h1>\n<p>En metode for å reise seg trygt opp fra bakken mens man opprettholder balanse og forsvar mot en stående angriper.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "tani-otoshi": {
+      "id": "tani-otoshi",
+      "name": "Bakoverfallkast",
+      "japanese": "tani otoshi",
+      "category": "nage",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "is_sutemi": true,
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Tani Otoshi (Bakoverfallkast)</h1>\n<p>Et &quot;sacrifice throw&quot; der man sklir bak angriperen og faller bakover for å dra dem med seg ned.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "tomoe-nage": {
+      "id": "tomoe-nage",
+      "name": "Mavekast",
+      "japanese": "tomoe nage",
+      "category": "nage",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Tomoe Nage (Mavekast)</h1>\n<h2>Et &quot;sacrifice throw&quot; (sutemi) der man legger seg på ryggen og bruker benet mot angriperens mave for å kaste dem over seg selv.</h2>\n<h2>is_sutemi: true</h2>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "ude-dore-nage": {
+      "id": "ude-dore-nage",
+      "name": "Neddragning av arm",
+      "japanese": "ude dore nage",
+      "category": "nage",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-3-kyu-green"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/3-green"
+        }
+      ],
+      "html": "<h1>Ude Dore Nage</h1>\n<p>Et kast eller neddragning som oppnås ved å kontrollere og dra i angriperens arm for å bryte deres balanse.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-3-kyu-green",
+          "title": "3. Kyu Grønt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "ude-garami": {
+      "id": "ude-garami",
+      "name": "Kontrollgrep (Ude Garami)",
+      "japanese": "ude garami",
+      "category": "gatame",
+      "domain": "ground",
+      "introduced_at": [
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-6-gatame",
+      "sources": [
+        {
+          "document": "senior/4-orange",
+          "notes": "Kan utføres i stående og liggende posisjon"
+        }
+      ],
+      "html": "<h1>Ude Garami</h1>\n<p>En klassisk armlås (keylock/americana/kimura variant) som brukes for å kontrollere angriperens arm ved å slynge egne armer rundt deres og skape et torsjonspress i skulderen.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Bakke",
+      "related": [
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "ude-hishigi-hiza-gatame": {
+      "id": "ude-hishigi-hiza-gatame",
+      "name": "Stående kontrollgrep mot liggende angriper",
+      "japanese": "ude hishigi hiza gatame",
+      "category": "gatame",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-6-gatame",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 6",
+          "notes": "Kjerneteknikk for kontroll i stående posisjon"
+        }
+      ],
+      "html": "<h1>Ude Hishigi Hiza Gatame</h1>\n<p>En stående armlås som brukes for å kontrollere en liggende angriper, samtidig som man beholder mobilitet og oversikt.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "uraken": {
+      "id": "uraken",
+      "name": "Bakside knyttneve-slag",
+      "japanese": "uraken",
+      "category": "tsuki",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-brown-mon",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "html": "<h1>Uraken (Bakside knyttneve-slag)</h1>\n<p>Et piskende slag med baksiden av de to fremste knokene.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-brown-mon",
+          "title": "Brunt Belte (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "ushiro-geri": {
+      "id": "ushiro-geri",
+      "name": "Bakoverspark",
+      "japanese": "ushiro geri",
+      "category": "keri",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-brown-1-stripe",
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "junior/black-belt-program",
+          "notes": "Junior Brown 1-stripe"
+        }
+      ],
+      "html": "<h1>Ushiro Geri (Bakoverspark)</h1>\n<p>Et kraftfullt rett spark bakover. Utføres ved å se over skulderen og sparke rett bak med hælen.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-brown-1-stripe",
+          "title": "Brunt Belte m/1 rød stripe (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "ushiro-ukemi": {
+      "id": "ushiro-ukemi",
+      "name": "Ryggfall",
+      "japanese": "ushiro ukemi",
+      "category": "ukemi",
+      "domain": "transition",
+      "introduced_at": [
+        "junior-yellow-mon",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-1-ukemi",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 1"
+        },
+        {
+          "document": "senior/5-yellow",
+          "notes": "Vises ofte med teknisk oppgang"
+        }
+      ],
+      "html": "<h1>Ryggfall (Ushiro Ukemi)</h1>\n<p>Et kontrollert fall rett bakover der armene brukes for å bryte fallet og beskytte ryggen og hodet.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "junior-yellow-mon",
+          "title": "Gult Belte (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "ushiro-ura-mawashi-geri": {
+      "id": "ushiro-ura-mawashi-geri",
+      "name": "Roterende baksiden av fot spark",
+      "japanese": "ushiro ura mawashi geri",
+      "category": "keri",
+      "domain": "standing",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 3"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Ushiro Ura Mawashi Geri</h1>\n<p>Et avansert spark der man roterer 360 grader og treffer med baksiden av hælen i en sirkulær bevegelse.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "yoko-geri": {
+      "id": "yoko-geri",
+      "name": "Sidespark",
+      "japanese": "yoko geri",
+      "category": "keri",
+      "domain": "standing",
+      "introduced_at": [
+        "junior-yellow-1-stripe",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-3-tsuki-keri",
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Junior Yellow 1-stripe"
+        }
+      ],
+      "html": "<h1>Yoko Geri (Sidespark)</h1>\n<p>Et kraftfullt spark som leveres sidelengs med kanten av foten eller hælen.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Stående",
+      "related": [
+        {
+          "id": "junior-yellow-1-stripe",
+          "title": "Gult Belte m/1 rød stripe (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "yoko-otoshi": {
+      "id": "yoko-otoshi",
+      "name": "Sidefallkast",
+      "japanese": "yoko otoshi",
+      "category": "nage",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "is_sutemi": true,
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Yoko Otoshi (Sidefallkast)</h1>\n<p>Et &quot;sacrifice throw&quot; der man faller til siden og drar angriperen over seg for å utføre fellingen.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "yoko-shio-gatame": {
+      "id": "yoko-shio-gatame",
+      "name": "Holdegrep fra siden (hofte)",
+      "japanese": "yoko shio gatame",
+      "category": "osae",
+      "domain": "ground",
+      "introduced_at": [
+        "senior-4-kyu-orange"
+      ],
+      "part_of_group": "gruppe-5-ne-waza",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 5"
+        },
+        {
+          "document": "senior/4-orange",
+          "notes": "Kontrollposisjon på bakken"
+        }
+      ],
+      "html": "<h1>Yoko Shio Gatame</h1>\n<p>En kontrollposisjon fra siden der man presser brystet mot angriperen og kontrollerer hoften og overkroppen fra siden.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "Bakke",
+      "related": [
+        {
+          "id": "senior-4-kyu-orange",
+          "title": "4. Kyu Oransje Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "yoko-ukemi": {
+      "id": "yoko-ukemi",
+      "name": "Sideveis Fall",
+      "japanese": "yoko ukemi",
+      "category": "ukemi",
+      "domain": "transition",
+      "introduced_at": [
+        "junior-white-2-stripe",
+        "senior-5-kyu-yellow"
+      ],
+      "part_of_group": "gruppe-1-ukemi",
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 1",
+          "notes": "Kjerneteknikk"
+        }
+      ],
+      "html": "<h1>Sideveis Fall (Yoko Ukemi)</h1>\n<p>Den helt sentrale teknikken som man må beherske når vi trener kast. Hodet må holdes opp fra matten, og armen brukes til å bryte fallet.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "junior-white-2-stripe",
+          "title": "Hvitt Belte m/2 røde striper (Junior)",
+          "relation": "Introduseres ved"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "title": "5. Kyu Gult Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "yoko-wakare": {
+      "id": "yoko-wakare",
+      "name": "Sideveis rullekast",
+      "japanese": "yoko wakare",
+      "category": "nage",
+      "domain": "transition",
+      "introduced_at": [
+        "senior-1-kyu-brown"
+      ],
+      "part_of_group": "gruppe-4-nage",
+      "is_sutemi": true,
+      "sources": [
+        {
+          "document": "senior/basisteknikker",
+          "page": "Gruppe 4"
+        },
+        {
+          "document": "senior/1-brown"
+        }
+      ],
+      "html": "<h1>Yoko Wakare (Sideveis rullekast)</h1>\n<p>Et avansert rullekast der man faller på tvers av angriperens bevegelsesretning for å kaste dem over seg selv.</p>\n",
+      "type": "techniques",
+      "typeLabel": "Teknikk",
+      "domainLabel": "transition",
+      "related": [
+        {
+          "id": "senior-1-kyu-brown",
+          "title": "1. Kyu Brunt Belte (Senior)",
+          "relation": "Introduseres ved"
+        }
+      ]
+    },
+    "junior-black-mon-1-test": {
+      "id": "junior-black-mon-1-test",
+      "name": "Graderingstest for Sort 1 Juniorbelte",
+      "curriculum_level": "junior-black-mon-1",
+      "parts": [
+        {
+          "label": "Selvforsvar",
+          "description": "5 valgfrie forsvar mot kontaktangrep med kast og kontrollgrep."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "3 valgfrie forsvar mot slag/spark kombinasjoner."
+        },
+        {
+          "label": "Kata",
+          "description": "Ju Jitsu DUO KATA (ca. 2 minutter)."
+        },
+        {
+          "label": "Sparring",
+          "description": "2 runder à 2 minutter kontrollert sparring."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/master-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-black-mon-2-test": {
+      "id": "junior-black-mon-2-test",
+      "name": "Graderingstest for Sort 2 Juniorbelte",
+      "curriculum_level": "junior-black-mon-2",
+      "parts": [
+        {
+          "label": "Kata",
+          "description": "Ju Jitsu DUO KATA (ca. 2 minutter)."
+        },
+        {
+          "label": "Analyse",
+          "description": "Analysere og forklare bakgrunnen for teknikkene i serien."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/master-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-blue-mon-test": {
+      "id": "junior-blue-mon-test",
+      "name": "Graderingstest for Blått Juniorbelte",
+      "curriculum_level": "junior-blue-mon",
+      "parts": [
+        {
+          "label": "Driller",
+          "description": "Forflytningsdrill mot 1-2 slag."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Forsvar mot klestak (med juji gatame) og hårtak bakfra."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Juji gatame fra guardposisjon."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Blått belte test"
+        }
+      ],
+      "html": "<h1>Graderingstest for Blått Juniorbelte</h1>\n<p>Full beltegradering som markerer overgang til sort belte programmet for juniorer.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-blue-test-1-stripe": {
+      "id": "junior-blue-test-1-stripe",
+      "name": "Stripetest 1 (Blått Juniorbelte)",
+      "curriculum_level": "junior-blue-1-stripe",
+      "parts": [
+        {
+          "label": "Driller",
+          "description": "Andre del av forflytningsdrill (sideforflytninger)."
+        },
+        {
+          "label": "Sparkteknikker",
+          "description": "6 spark i kombinasjon (mae, yoko, mawashi) med begge ben."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Forsvar mot slag fra mount (beskyttelse og bridge)."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-blue-test-2-stripe": {
+      "id": "junior-blue-test-2-stripe",
+      "name": "Stripetest 2 (Blått Juniorbelte)",
+      "curriculum_level": "junior-blue-2-stripe",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Ippon seio nage."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "12-teknikk serie (6 slag og 6 spark)."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Forsvar mot strupetak med armen bakfra (ippon seio nage)."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Sakseteknikk/sweep mot strupetak i guard."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-brown-2-mon-test": {
+      "id": "junior-brown-2-mon-test",
+      "name": "Graderingstest for Brunt 2 Juniorbelte",
+      "curriculum_level": "junior-brown-2-mon",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Sukui nage (øsekast)."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "Komplekse kombinasjoner med ducking, hooks og sukui nage."
+        },
+        {
+          "label": "Sparring",
+          "description": "2 runder à 2 minutter med boksehansker."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-brown-mon-test": {
+      "id": "junior-brown-mon-test",
+      "name": "Graderingstest for Brunt Juniorbelte",
+      "curriculum_level": "junior-brown-mon",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Harai goshi (feiende hoftekast)."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "Forflytningsdrill (full serie) og spinnende spark."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Forsvar mot strupetak (frigjøring + hara goshi)."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Sitteguard: forsvar mot bevegelig angriper."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-brown-test-1-stripe": {
+      "id": "junior-brown-test-1-stripe",
+      "name": "Stripetest 1 (Brunt Juniorbelte)",
+      "curriculum_level": "junior-brown-1-stripe",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Offerkast i sirkel (tomoe nage)."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "Slag og spark i utfight med ushiro geri."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Forsvar mot dytt med tomoe nage til tate shio gatame."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Sitteguard: gjenvinne kontroll når bena tas vekk (reka)."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-brown-test-2-stripe": {
+      "id": "junior-brown-test-2-stripe",
+      "name": "Stripetest 2 (Brunt Juniorbelte)",
+      "curriculum_level": "junior-brown-2-stripe",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Sideveis offerkast (yoko wakare)."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "Spinnende spark (ushiro ura mawashi geri)."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Forsvar mot rett slag og hodelås bakfra (yoko wakare)."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Avanserte løsninger fra sitteguard (tomoe nage variant)."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/black-belt-program"
+        }
+      ],
+      "html": "",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-green-mon-test": {
+      "id": "junior-green-mon-test",
+      "name": "Graderingstest for Grønt Juniorbelte",
+      "curriculum_level": "junior-green-mon",
+      "parts": [
+        {
+          "label": "Slagteknikker",
+          "description": "Hook/sving (3-4 kombinasjon) med kroppsruller."
+        },
+        {
+          "label": "Kastteknikker",
+          "description": "Hoftekast (O goshi)."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Forsvar mot omfavning over armer forfra med O goshi."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Forsvar mot hon kesa gatame ved bruk av reka."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Grønt belte test"
+        }
+      ],
+      "html": "<h1>Graderingstest for Grønt Juniorbelte</h1>\n<p>Full beltegradering med fokus på kraftfulle hoftekast og aktivt forsvar på bakken.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-green-test-1-stripe": {
+      "id": "junior-green-test-1-stripe",
+      "name": "Stripetest 1 (Grønt Juniorbelte)",
+      "curriculum_level": "junior-green-1-stripe",
+      "parts": [
+        {
+          "label": "Slagteknikker",
+          "description": "Uppercuts (5-6 kombinasjon) og drill 1-6."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "2 alternativer mot strupetak forfra (frigjøring eller O soto otoshi)."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Forsvar mot yoko shio gatame ved bruk av reka."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Green 1-stripe test"
+        }
+      ],
+      "html": "<h1>Stripetest 1 (Grønt Juniorbelte)</h1>\n<p>Fokus på hurtighet i kombinasjoner og beslutningstaking i selvforsvar.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-green-test-2-stripe": {
+      "id": "junior-green-test-2-stripe",
+      "name": "Stripetest 2 (Grønt Juniorbelte)",
+      "curriculum_level": "junior-green-2-stripe",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Ippon seio nage (stående eller på kne)."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Forsvar mot hårtak (frigjøring) og omfavning (ippon seio nage)."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Forsvar mot tate shio gatame."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Green 2-stripe test"
+        }
+      ],
+      "html": "<h1>Stripetest 2 (Grønt Juniorbelte)</h1>\n<p>Inkluderer avanserte skulderkast og varierte selvforsvarssituasjoner.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-orange-mon-test": {
+      "id": "junior-orange-mon-test",
+      "name": "Graderingstest for Oransje Juniorbelte",
+      "curriculum_level": "junior-orange-mon",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Benfelling/kast (O soto otoshi)."
+        },
+        {
+          "label": "Fallteknikk",
+          "description": "Sittende volt forover til sideveis fall."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Avlede armer ved grepsforsøk og utføre O soto otoshi."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Ushiro kesa gatame og kombinasjonsdrill."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Oransje belte test"
+        }
+      ],
+      "html": "<h1>Graderingstest for Oransje Juniorbelte</h1>\n<p>Full beltegradering med fokus på fellinger og koordinert bakkearbeid.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-orange-test-1-stripe": {
+      "id": "junior-orange-test-1-stripe",
+      "name": "Stripetest 1 (Oransje Juniorbelte)",
+      "curriculum_level": "junior-orange-1-stripe",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Felling (hiki otoshi) med balansebrytning."
+        },
+        {
+          "label": "Fallteknikk",
+          "description": "Stående volt forover til stående posisjon."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Avlede armer og utføre Hiki otoshi."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Hele bakkedrillen fra begge sider."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Orange 1-stripe test"
+        }
+      ],
+      "html": "<h1>Stripetest 1 (Oransje Juniorbelte)</h1>\n<p>Innfasing av mer dynamiske fellinger og forbedret fallteknikk.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-orange-test-2-stripe": {
+      "id": "junior-orange-test-2-stripe",
+      "name": "Stripetest 2 (Oransje Juniorbelte)",
+      "curriculum_level": "junior-orange-2-stripe",
+      "parts": [
+        {
+          "label": "Kastteknikker",
+          "description": "Kombinasjon mellom O soto otoshi og hiki otoshi."
+        },
+        {
+          "label": "Fallteknikk",
+          "description": "Stående volt bakover til stående posisjon."
+        },
+        {
+          "label": "Selvforsvar",
+          "description": "Utnytte motstand til å kombinere hiki otoshi og O soto otoshi."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Guard posisjon: kontrollere angriper og komme seg opp."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Orange 2-stripe test"
+        }
+      ],
+      "html": "<h1>Stripetest 2 (Oransje Juniorbelte)</h1>\n<p>Tester evnen til å flyte mellom teknikker basert på motstand.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-white-test-1-stripe": {
+      "id": "junior-white-test-1-stripe",
+      "name": "Stripetest 1 (Hvitt Juniorbelte)",
+      "curriculum_level": "junior-white-1-stripe",
+      "parts": [
+        {
+          "label": "Bekledning og Hilsen",
+          "description": "Vise riktig bekledning og hilsen (rei) i dojo."
+        },
+        {
+          "label": "Stillinger",
+          "description": "Yoi (klar) og Kamai (guard)."
+        },
+        {
+          "label": "Slagteknikker",
+          "description": "Kizami zuki, Gyaku zuki, og 1-2 kombinasjon (mette)."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "1 stripe"
+        }
+      ],
+      "html": "<h1>Stripetest 1 (Hvitt Juniorbelte)</h1>\n<p>Fokus er på grunnleggende orden, respekt og enkle slagteknikker.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-white-test-2-stripe": {
+      "id": "junior-white-test-2-stripe",
+      "name": "Stripetest 2 (Hvitt Juniorbelte)",
+      "curriculum_level": "junior-white-2-stripe",
+      "parts": [
+        {
+          "label": "Sparkteknikker",
+          "description": "Mae geri med fremste og bakerste ben."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "Kizami zuki, Gyaku zuki, Mae geri."
+        },
+        {
+          "label": "Fallteknikk",
+          "description": "Yoko ukemi fra sittende posisjon."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "2 striper"
+        }
+      ],
+      "html": "<h1>Stripetest 2 (Hvitt Juniorbelte)</h1>\n<p>Innfasing av spark og de første elementene av fallteknikk.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-yellow-mon-test": {
+      "id": "junior-yellow-mon-test",
+      "name": "Graderingstest for Gult Juniorbelte",
+      "curriculum_level": "junior-yellow-mon",
+      "parts": [
+        {
+          "label": "Bekledning",
+          "description": "Knyte beltet med riktig knute (obi)."
+        },
+        {
+          "label": "Sparkteknikker",
+          "description": "Mawashi geri (rundspark) mot gedan og chudan."
+        },
+        {
+          "label": "Fallteknikk",
+          "description": "Ryggfall fra stående (kun rulle)."
+        },
+        {
+          "label": "Slag/Spark Kombinasjon",
+          "description": "Kizami zuki, Gyaku zuki, Mawashi geri i utfight."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Hon kesa gatame med kontroll."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/white-belt-program",
+          "notes": "Gult belte"
+        }
+      ],
+      "html": "<h1>Graderingstest for Gult Juniorbelte</h1>\n<p>Den første ordentlige beltegraderingen for juniorer. Krever god grunnleggende koordinasjon og kontroll.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-yellow-test-1-stripe": {
+      "id": "junior-yellow-test-1-stripe",
+      "name": "Stripetest 1 (Gult Juniorbelte)",
+      "curriculum_level": "junior-yellow-1-stripe",
+      "parts": [
+        {
+          "label": "Sparkteknikker",
+          "description": "Yoko geri (sidespark) mot kropp."
+        },
+        {
+          "label": "Fallteknikk",
+          "description": "Ryggfall med teknisk oppgang (tachi agari)."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "Kizami zuki, gyaku zuki, yoko geri i utfight."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Yoko shio gatame, og kombiner med hon kesa gatame."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Yellow 1-stripe test"
+        }
+      ],
+      "html": "<h1>Stripetest 1 (Gult Juniorbelte)</h1>\n<p>Tester evnen til å kombinere slag og sidespark i bevegelse, samt mer avansert bakkearbeid.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "junior-yellow-test-2-stripe": {
+      "id": "junior-yellow-test-2-stripe",
+      "name": "Stripetest 2 (Gult Juniorbelte)",
+      "curriculum_level": "junior-yellow-2-stripe",
+      "parts": [
+        {
+          "label": "Sparkteknikker",
+          "description": "Dobbelt knespark (hiza geri) med riktig grep."
+        },
+        {
+          "label": "Fallteknikk",
+          "description": "Ryggfall med teknisk oppgang mot dytt."
+        },
+        {
+          "label": "Kombinasjoner",
+          "description": "Kizami zuki, gyaku zuki, hiza geri."
+        },
+        {
+          "label": "Bakketeknikk",
+          "description": "Tate shio gatame, og kombiner alle tidligere holdegrep."
+        }
+      ],
+      "sources": [
+        {
+          "document": "junior/green-belt-program",
+          "notes": "Yellow 2-stripe test"
+        }
+      ],
+      "html": "<h1>Stripetest 2 (Gult Juniorbelte)</h1>\n<p>Innfasing av knespark og dynamisk fallteknikk mot en aktiv motstander.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "senior-1-dan-black-test": {
+      "id": "senior-1-dan-black-test",
+      "name": "Graderingstest for 1. Dan Sort Belte",
+      "curriculum_level": "senior-1-dan-black",
+      "parts": [
+        {
+          "label": "Tema 1: Basisteknikker (Driller)",
+          "description": "Vis falløvelser i serie, forflytningsdrill, og 5-6 slag/spark kombinasjoner med partner.",
+          "drills": [
+            "drill-dan-ukemi",
+            "drill-310-1"
+          ]
+        },
+        {
+          "label": "Tema 1: Samtlige kast og fellinger",
+          "description": "Vis alle 12 pensumskast med fokus på balansebrytning (Kuzushi).",
+          "techniques": [
+            "hiki-otoshi",
+            "o-soto-otoshi",
+            "o-soto-gari",
+            "morote-gari",
+            "sukui-nage",
+            "tani-otoshi",
+            "koshi-guruma",
+            "ippon-seio-nage",
+            "ude-dore-nage",
+            "yoko-wakare",
+            "harai-goshi",
+            "kibisu-gaeshi"
+          ]
+        },
+        {
+          "label": "Tema 2: Selvforsvar (Sone 1/2)",
+          "description": "3-5 forsvar mot varierte angrep, inkludert hodeklem, strupetak og omfavnelser.",
+          "defenses": [
+            "defense-dan-misc-1",
+            "defense-dan-misc-2"
+          ]
+        },
+        {
+          "label": "Tema 3: Teknisk serie (2 min)",
+          "description": "En logisk oppbygd serie av teknikker med 1-2 angripere."
+        },
+        {
+          "label": "Del 2: Sparring og stresstest",
+          "description": "2 runder fri sparring + 2 runder stresstesting (sirkel).",
+          "sparring": {
+            "rounds": 4,
+            "duration_per_round": "2 minutter",
+            "type": "striking-and-grappling"
+          }
+        }
+      ],
+      "sources": [
+        {
+          "document": "senior/1dan-black",
+          "notes": "JJN Ju jitsu 2022"
+        }
+      ],
+      "html": "<h1>Graderingstest for 1. Dan Sort Belte</h1>\n<p>Testen er delt i en omfattende teknisk del som dekker hele pensum, og en fysisk del med sparring og stresstesting.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "senior-1-kyu-brown-test": {
+      "id": "senior-1-kyu-brown-test",
+      "name": "Graderingstest for 1. Kyu Brunt Belte",
+      "curriculum_level": "senior-1-kyu-brown",
+      "parts": [
+        {
+          "label": "Del 1: Forsvar mot hodeklem (Sirkel)",
+          "description": "3-4 angripere utfører hodeklem forfra eller bakfra i høyt tempo.",
+          "defenses": [
+            "defense-118-1",
+            "defense-118-2",
+            "defense-119-1"
+          ]
+        },
+        {
+          "label": "Del 2: Forsvar mot strupetak ved vegg (Sirkel)",
+          "description": "Angrep med strupetak mens man står mot en vegg.",
+          "defenses": [
+            "defense-120-1"
+          ]
+        },
+        {
+          "label": "Del 3: Forsvar mot slag/spark kombinasjoner (Sirkel)",
+          "description": "Avanserte serier inkludert spark mot hode/kropp.",
+          "defenses": [
+            "defense-121-1"
+          ]
+        },
+        {
+          "label": "Del 4: Bakkejobbing (Situasjonell)",
+          "description": "Spesifikke situasjoner fra tidligere grader kombinert."
+        },
+        {
+          "label": "Del 5: Sparring",
+          "description": "2 runder (2 min) frisparring. Høy intensitet.",
+          "sparring": {
+            "rounds": 2,
+            "duration_per_round": "2 minutter",
+            "type": "striking-and-grappling",
+            "head_contact": false,
+            "equipment": [
+              "boksehansker",
+              "beskyttelsesutstyr",
+              "tannbeskytter",
+              "skinnbeskyttere"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "document": "senior/1-brown",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "html": "<h1>Graderingstest for 1. Kyu Brunt Belte</h1>\n<p>Testen krever at utøveren viser teknisk overskudd og kontroll i alle situasjoner, spesielt under stress i sirkeløvelser og sparring.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "senior-2-kyu-blue-test": {
+      "id": "senior-2-kyu-blue-test",
+      "name": "Graderingstest for 2. Kyu Blått Belte",
+      "curriculum_level": "senior-2-kyu-blue",
+      "parts": [
+        {
+          "label": "Del 1: Forsvar mot grep i klær (Sirkel)",
+          "description": "3-4 angripere utfører grep i drakt/klær forfra.",
+          "defenses": [
+            "defense-214-1",
+            "defense-214-2"
+          ]
+        },
+        {
+          "label": "Del 2: Forsvar mot hårgrep (Sirkel)",
+          "description": "Angrep med grep i hår forfra eller fra siden.",
+          "defenses": [
+            "defense-215-1"
+          ]
+        },
+        {
+          "label": "Del 3: Forsvar mot slagkombinasjoner (Sirkel)",
+          "description": "Høyt tempo, forsvar mot rette slag og sving slag.",
+          "defenses": [
+            "defense-216-1"
+          ]
+        },
+        {
+          "label": "Del 4: Bakkejobbing (Liggende forsvar)",
+          "description": "Forsvar fra liggende posisjon mot stående angriper.",
+          "defenses": [
+            "defense-217-1"
+          ]
+        },
+        {
+          "label": "Del 5: Sparring",
+          "description": "1-2 runder (2 min) frisparring. Fokus på tempo, kraft og bevegelse.",
+          "sparring": {
+            "rounds": 2,
+            "duration_per_round": "2 minutter",
+            "type": "striking-and-grappling",
+            "head_contact": false,
+            "equipment": [
+              "boksehansker",
+              "beskyttelsesutstyr",
+              "tannbeskytter"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "document": "senior/2-blue",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "html": "<h1>Graderingstest for 2. Kyu Blått Belte</h1>\n<p>Testen avsluttes med en fysisk og teknisk krevende sparringsdel som tester utholdenhet og evnen til å anvende teknikker under press.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "senior-3-kyu-green-test": {
+      "id": "senior-3-kyu-green-test",
+      "name": "Graderingstest for 3. Kyu Grønt Belte",
+      "curriculum_level": "senior-3-kyu-green",
+      "parts": [
+        {
+          "label": "Del 1: Forsvar mot strupetak (Sirkel)",
+          "description": "3-4 angripere utfører strupetak. Kan også inkludere angrep forfra (tidligere pensum).",
+          "defenses": [
+            "defense-309-1",
+            "defense-309-2"
+          ]
+        },
+        {
+          "label": "Del 2: Forflytningsdrill og Slag",
+          "description": "Spesifikk forflytningsdrill mot rette slagserier.",
+          "drills": [
+            "drill-310-1"
+          ],
+          "defenses": [
+            "defense-310-1"
+          ]
+        },
+        {
+          "label": "Del 3: Bakkejobbing (Landingsforsvar)",
+          "description": "Forsvar mot angrep etter å ha blitt kastet eller når angriper sitter over.",
+          "defenses": [
+            "defense-311-1",
+            "defense-312-1",
+            "defense-313-1"
+          ]
+        },
+        {
+          "label": "Del 4: Sparring",
+          "description": "1 runde (2 min) frisparring uten slag mot hodet. Fokus på flyt og offensivitet.",
+          "sparring": {
+            "rounds": 1,
+            "duration_per_round": "2 minutter",
+            "type": "striking-only",
+            "head_contact": false,
+            "equipment": [
+              "boksehansker",
+              "beskyttelsesutstyr"
+            ]
+          }
+        }
+      ],
+      "sources": [
+        {
+          "document": "senior/3-green",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "html": "<h1>Graderingstest for 3. Kyu Grønt Belte</h1>\n<p>Testen inkluderer sirkeløvelser, en omfattende forflytningsdrill, bakkeforsvar fra utsatte posisjoner og kontrollert frisparring.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "senior-4-kyu-orange-test": {
+      "id": "senior-4-kyu-orange-test",
+      "name": "Graderingstest for 4. Kyu Oransje Belte",
+      "curriculum_level": "senior-4-kyu-orange",
+      "parts": [
+        {
+          "label": "Del 1: Forsvar mot strupetak (Sirkel)",
+          "description": "3-4 angripere utfører strupetak forfra i høyt tempo. Utøveren veksler mellom frigjøring og kast.",
+          "defenses": [
+            "defense-405-1",
+            "defense-405-2"
+          ]
+        },
+        {
+          "label": "Del 2: Forsvar mot slag (Sirkel)",
+          "description": "Angrep med slagserier i høyt tempo.",
+          "defenses": [
+            "defense-406-1"
+          ]
+        },
+        {
+          "label": "Del 3: Bakkejobbing (Kontroll og frigjøring)",
+          "description": "Vise frigjøring fra og festing av kontrollgrep i posisjonene Hon Kesa Gatame og Yoko Shio Gatame.",
+          "defenses": [
+            "defense-407-1",
+            "defense-407-2",
+            "defense-408-1",
+            "defense-408-2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "document": "senior/4-orange",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "html": "<h1>Graderingstest for 4. Kyu Oransje Belte</h1>\n<p>Testen utfordrer utøverens evne til å reagere under stress (sirkeløvelser) og demonstrere teknisk presisjon i bakkekamp.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    },
+    "senior-5-kyu-yellow-test": {
+      "id": "senior-5-kyu-yellow-test",
+      "name": "Graderingstest for 5. Kyu Gult Belte",
+      "curriculum_level": "senior-5-kyu-yellow",
+      "parts": [
+        {
+          "label": "Del 1: Fallteknikk og Forsvar",
+          "description": "Dynamisk serie med volter, ryggfall og forsvar mot slagkombinasjoner.",
+          "defenses": [
+            "defense-502-1",
+            "defense-502-2",
+            "defense-502-3",
+            "defense-504-1"
+          ]
+        },
+        {
+          "label": "Del 2: Bakkejobbing",
+          "description": "Posisjonering og slag/spark fra sitteguard.",
+          "drills": [
+            "drill-503-1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "document": "senior/5-yellow",
+          "notes": "JJN Ju jitsu 2021"
+        }
+      ],
+      "html": "<h1>Graderingstest for 5. Kyu Gult Belte</h1>\n<p>Testen starter med lett oppvarming, etterfulgt av to hoveddeler som tester teknisk utførelse i bevegelse og kontrollert motstand.</p>\n",
+      "type": "tests",
+      "typeLabel": "tests",
+      "related": []
+    }
+  },
+  "nav": [
+    {
+      "title": "Senior Graderinger",
+      "links": [
+        {
+          "id": "senior-1-dan-black",
+          "text": "1. Dan Sort Belte (Senior)"
+        },
+        {
+          "id": "senior-1-kyu-brown",
+          "text": "1. Kyu Brunt Belte (Senior)"
+        },
+        {
+          "id": "senior-2-kyu-blue",
+          "text": "2. Kyu Blått Belte (Senior)"
+        },
+        {
+          "id": "senior-3-kyu-green",
+          "text": "3. Kyu Grønt Belte (Senior)"
+        },
+        {
+          "id": "senior-4-kyu-orange",
+          "text": "4. Kyu Oransje Belte (Senior)"
+        },
+        {
+          "id": "senior-5-kyu-yellow",
+          "text": "5. Kyu Gult Belte (Senior)"
+        }
+      ]
+    },
+    {
+      "title": "Junior Graderinger",
+      "links": [
+        {
+          "id": "junior-blue-mon",
+          "text": "Blått Belte (Junior)"
+        },
+        {
+          "id": "junior-blue-1-stripe",
+          "text": "Blått Belte m/1 rød stripe (Junior)"
+        },
+        {
+          "id": "junior-blue-2-stripe",
+          "text": "Blått Belte m/2 røde striper (Junior)"
+        },
+        {
+          "id": "junior-brown-2-mon",
+          "text": "Brunt 2 Belte (Junior)"
+        },
+        {
+          "id": "junior-brown-mon",
+          "text": "Brunt Belte (Junior)"
+        },
+        {
+          "id": "junior-brown-1-stripe",
+          "text": "Brunt Belte m/1 rød stripe (Junior)"
+        },
+        {
+          "id": "junior-brown-2-stripe",
+          "text": "Brunt Belte m/2 røde striper (Junior)"
+        },
+        {
+          "id": "junior-green-mon",
+          "text": "Grønt Belte (Junior)"
+        },
+        {
+          "id": "junior-green-1-stripe",
+          "text": "Grønt Belte m/1 rød stripe (Junior)"
+        },
+        {
+          "id": "junior-green-2-stripe",
+          "text": "Grønt Belte m/2 røde striper (Junior)"
+        },
+        {
+          "id": "junior-yellow-mon",
+          "text": "Gult Belte (Junior)"
+        },
+        {
+          "id": "junior-yellow-1-stripe",
+          "text": "Gult Belte m/1 rød stripe (Junior)"
+        },
+        {
+          "id": "junior-yellow-2-stripe",
+          "text": "Gult Belte m/2 røde striper (Junior)"
+        },
+        {
+          "id": "junior-white-belt",
+          "text": "Hvitt Belte (Junior)"
+        },
+        {
+          "id": "junior-white-1-stripe",
+          "text": "Hvitt Belte m/1 rød stripe (Junior)"
+        },
+        {
+          "id": "junior-white-2-stripe",
+          "text": "Hvitt Belte m/2 røde striper (Junior)"
+        },
+        {
+          "id": "junior-orange-mon",
+          "text": "Oransje Belte (Junior)"
+        },
+        {
+          "id": "junior-orange-1-stripe",
+          "text": "Oransje Belte m/1 rød stripe (Junior)"
+        },
+        {
+          "id": "junior-orange-2-stripe",
+          "text": "Oransje Belte m/2 røde striper (Junior)"
+        },
+        {
+          "id": "junior-black-mon-1",
+          "text": "Sort 1 Belte (Junior)"
+        },
+        {
+          "id": "junior-black-mon-2",
+          "text": "Sort 2 Belte (Junior)"
+        }
+      ]
+    },
+    {
+      "title": "Basisteknikker",
+      "links": [
+        {
+          "id": "kibisu-gaeshi",
+          "text": "Ankelfelling"
+        },
+        {
+          "id": "tani-otoshi",
+          "text": "Bakoverfallkast"
+        },
+        {
+          "id": "ushiro-geri",
+          "text": "Bakoverspark"
+        },
+        {
+          "id": "uraken",
+          "text": "Bakside knyttneve-slag"
+        },
+        {
+          "id": "o-soto-otoshi",
+          "text": "Benkast"
+        },
+        {
+          "id": "o-soto-gari",
+          "text": "Benkast (Feiende)"
+        },
+        {
+          "id": "morote-gari",
+          "text": "Dobbelthånds benkast"
+        },
+        {
+          "id": "de-ashi-barai",
+          "text": "Fotfeid (Fremste fot)"
+        },
+        {
+          "id": "kote-gaeshi",
+          "text": "Håndleddsvridning (Utover)"
+        },
+        {
+          "id": "sumi-gaeshi",
+          "text": "Hjørnekast"
+        },
+        {
+          "id": "harai-goshi",
+          "text": "Hoftekast (Feiende)"
+        },
+        {
+          "id": "koshi-guruma",
+          "text": "Hoftekast (Hode)"
+        },
+        {
+          "id": "hon-kesa-gatame",
+          "text": "Holdegrep fra siden (hode)"
+        },
+        {
+          "id": "yoko-shio-gatame",
+          "text": "Holdegrep fra siden (hofte)"
+        },
+        {
+          "id": "hiza-geri",
+          "text": "Knepark"
+        },
+        {
+          "id": "kubi-nage-gatame",
+          "text": "Kontrollgrep (Hals)"
+        },
+        {
+          "id": "ude-garami",
+          "text": "Kontrollgrep (Ude Garami)"
+        },
+        {
+          "id": "juji-gatame",
+          "text": "Korsarmlås"
+        },
+        {
+          "id": "tomoe-nage",
+          "text": "Mavekast"
+        },
+        {
+          "id": "ude-dore-nage",
+          "text": "Neddragning av arm"
+        },
+        {
+          "id": "hiki-otoshi",
+          "text": "Nedragning"
+        },
+        {
+          "id": "sukui-nage",
+          "text": "Øsekast"
+        },
+        {
+          "id": "reka",
+          "text": "Reka (Hoftebevegelse)"
+        },
+        {
+          "id": "mae-geri",
+          "text": "Rett spark"
+        },
+        {
+          "id": "ushiro-ura-mawashi-geri",
+          "text": "Roterende baksiden av fot spark"
+        },
+        {
+          "id": "mawashi-geri",
+          "text": "Rundspark"
+        },
+        {
+          "id": "ushiro-ukemi",
+          "text": "Ryggfall"
+        },
+        {
+          "id": "yoko-otoshi",
+          "text": "Sidefallkast"
+        },
+        {
+          "id": "yoko-geri",
+          "text": "Sidespark"
+        },
+        {
+          "id": "yoko-ukemi",
+          "text": "Sideveis Fall"
+        },
+        {
+          "id": "yoko-wakare",
+          "text": "Sideveis rullekast"
+        },
+        {
+          "id": "ippon-seio-nage",
+          "text": "Skulderkast (Ett-arms)"
+        },
+        {
+          "id": "gyaku-zuki",
+          "text": "Slag med bakerste hånd"
+        },
+        {
+          "id": "kizami-zuki",
+          "text": "Slag med fremste hånd"
+        },
+        {
+          "id": "ude-hishigi-hiza-gatame",
+          "text": "Stående kontrollgrep mot liggende angriper"
+        },
+        {
+          "id": "o-goshi",
+          "text": "Stort hoftekast"
+        },
+        {
+          "id": "tachi-agari",
+          "text": "Teknisk oppgang"
+        },
+        {
+          "id": "sankaku-jime",
+          "text": "Trekantlås"
+        },
+        {
+          "id": "kaiten-ushiro-ukemi",
+          "text": "Volt Bakover"
+        },
+        {
+          "id": "kaiten-mae-ukemi",
+          "text": "Volt Forover"
+        }
+      ]
+    },
+    {
+      "title": "Angrep & Forsvar",
+      "links": [
+        {
+          "id": "combination-mon-1-2",
+          "text": "1-2 Kombinasjon (Junior)"
+        },
+        {
+          "id": "push-rear",
+          "text": "Angriper dytter deg bakfra"
+        },
+        {
+          "id": "push-frontal",
+          "text": "Angriper dytter deg forfra"
+        },
+        {
+          "id": "grab-clothes-frontal",
+          "text": "Angriper griper tak i drakten/klærne dine forfra"
+        },
+        {
+          "id": "grab-hair-frontal",
+          "text": "Angriper griper tak i håret ditt forfra/fra siden"
+        },
+        {
+          "id": "choke-rear-arm",
+          "text": "Angriper griper tak med armen og struper deg bakfra"
+        },
+        {
+          "id": "neck-grab-frontal",
+          "text": "Angriper griper tak rundt halsen din forfra"
+        },
+        {
+          "id": "ground-attack-guard",
+          "text": "Angriper mellom dine ben"
+        },
+        {
+          "id": "ground-choke-mount",
+          "text": "Angriper sitter over deg og struper"
+        },
+        {
+          "id": "strike-combo-straight",
+          "text": "Angriper slår en rett slag kombinasjon"
+        },
+        {
+          "id": "strike-swing-combo",
+          "text": "Angriper slår rette slag og sving slag kombinasjon"
+        },
+        {
+          "id": "ground-attack-lying",
+          "text": "Angriper står over deg mens du ligger på ryggen"
+        },
+        {
+          "id": "choke-wall-frontal",
+          "text": "Angriper struper deg mot en vegg"
+        },
+        {
+          "id": "headlock-rear",
+          "text": "Angriper tar hodeklem bakfra (Headlock)"
+        },
+        {
+          "id": "headlock-frontal",
+          "text": "Angriper tar hodeklem forfra (Headlock)"
+        },
+        {
+          "id": "ground-attack-side",
+          "text": "Angriper ved siden av deg på bakken"
+        },
+        {
+          "id": "drill-503-1",
+          "text": "Bakkebevegelse mot stående angriper"
+        },
+        {
+          "id": "defense-407-2",
+          "text": "Feste kontrollgrep fra Hon Kesa Gatame"
+        },
+        {
+          "id": "defense-408-2",
+          "text": "Feste kontrollgrep fra Yoko Shio Gatame"
+        },
+        {
+          "id": "drill-310-1",
+          "text": "Forflytningsdrill mot rette slag"
+        },
+        {
+          "id": "defense-312-1",
+          "text": "Forsvar fra guard"
+        },
+        {
+          "id": "defense-217-1",
+          "text": "Forsvar fra rygg mot stående angriper"
+        },
+        {
+          "id": "defense-313-1",
+          "text": "Forsvar fra siden på bakken"
+        },
+        {
+          "id": "defense-310-1",
+          "text": "Forsvar i bevegelse mot rette slag"
+        },
+        {
+          "id": "defense-502-1",
+          "text": "Forsvar mot dytt bakfra (Volt)"
+        },
+        {
+          "id": "defense-502-3",
+          "text": "Forsvar mot dytt forfra (Ryggfall)"
+        },
+        {
+          "id": "defense-502-2",
+          "text": "Forsvar mot dytt forfra (Volt bakover)"
+        },
+        {
+          "id": "defense-214-2",
+          "text": "Forsvar mot grep i klær (Harai Goshi)"
+        },
+        {
+          "id": "defense-214-1",
+          "text": "Forsvar mot grep i klær (O Soto Gari)"
+        },
+        {
+          "id": "defense-junior-orange-1",
+          "text": "Forsvar mot grepsforsøk (Junior Oransje)"
+        },
+        {
+          "id": "defense-215-1",
+          "text": "Forsvar mot hårgrep (Kote Gaeshi)"
+        },
+        {
+          "id": "defense-119-1",
+          "text": "Forsvar mot hodeklem bakfra (Tani Otoshi)"
+        },
+        {
+          "id": "defense-119-2",
+          "text": "Forsvar mot hodeklem bakfra (Yoko Wakare)"
+        },
+        {
+          "id": "defense-118-2",
+          "text": "Forsvar mot hodeklem forfra (Tani Otoshi)"
+        },
+        {
+          "id": "defense-118-1",
+          "text": "Forsvar mot hodeklem forfra (Yoko Otoshi)"
+        },
+        {
+          "id": "defense-407-1",
+          "text": "Forsvar mot holdegrep (Hon Kesa Gatame)"
+        },
+        {
+          "id": "defense-408-1",
+          "text": "Forsvar mot holdegrep (Yoko Shio Gatame)"
+        },
+        {
+          "id": "defense-dan-misc-1",
+          "text": "Forsvar mot omfavning over armer"
+        },
+        {
+          "id": "defense-504-1",
+          "text": "Forsvar mot rette slag (Yellow Belt)"
+        },
+        {
+          "id": "defense-406-1",
+          "text": "Forsvar mot rette slag og sving slag"
+        },
+        {
+          "id": "defense-121-1",
+          "text": "Forsvar mot slag/spark (Harai Goshi)"
+        },
+        {
+          "id": "defense-121-2",
+          "text": "Forsvar mot slag/spark (Sumi Gaeshi)"
+        },
+        {
+          "id": "defense-216-1",
+          "text": "Forsvar mot slagkombinasjon (Blue Belt)"
+        },
+        {
+          "id": "defense-405-2",
+          "text": "Forsvar mot strupetak (Koshi Guruma)"
+        },
+        {
+          "id": "defense-309-1",
+          "text": "Forsvar mot strupetak bakfra (Frigjøring)"
+        },
+        {
+          "id": "defense-309-2",
+          "text": "Forsvar mot strupetak bakfra (Ippon Seio Nage)"
+        },
+        {
+          "id": "defense-311-1",
+          "text": "Forsvar mot strupetak fra mount"
+        },
+        {
+          "id": "defense-120-1",
+          "text": "Forsvar mot strupetak ved vegg (Hiki Otoshi)"
+        },
+        {
+          "id": "defense-120-2",
+          "text": "Forsvar mot strupetak ved vegg (Kibisu Gaeshi)"
+        },
+        {
+          "id": "frigjoring-bakover-hals",
+          "text": "Frigjøring bakover (hals)"
+        },
+        {
+          "id": "defense-405-1",
+          "text": "Frigjøring bakover mot strupetak"
+        },
+        {
+          "id": "guard",
+          "text": "Guard / Kamai"
+        },
+        {
+          "id": "bear-hug-rear",
+          "text": "Omfavning over armer bakfra"
+        },
+        {
+          "id": "bear-hug-frontal",
+          "text": "Omfavning over armer forfra"
+        },
+        {
+          "id": "s-blokk",
+          "text": "S-blokk"
+        },
+        {
+          "id": "sitting-guard",
+          "text": "Sitteguard"
+        },
+        {
+          "id": "combination-mon-yellow",
+          "text": "Slag og rundspark kombinasjon (Junior)"
+        },
+        {
+          "id": "combination-mon-strike-kick",
+          "text": "Slag og spark kombinasjon (Junior)"
+        },
+        {
+          "id": "drill-dan-ukemi",
+          "text": "Ukemi Drill (1. Dan)"
+        }
+      ]
+    }
+  ]
+}

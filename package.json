@@ -4,17 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "node scripts/generate-db.js && vite build",
+    "preview": "vite preview",
+    "db": "node scripts/generate-db.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@vitejs/plugin-vue": "^6.0.4",
     "fs-extra": "^11.3.3",
+    "fuse.js": "^7.1.0",
     "gray-matter": "^4.0.3",
     "markdown-it": "^14.1.1",
-    "mermaid": "^11.12.3"
-  }
+    "mermaid": "^11.12.3",
+    "vite": "^7.3.1",
+    "vue": "^3.5.29",
+    "vue-router": "^5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solvemon/jjn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solvemon/jjn/issues"
+  },
+  "homepage": "https://github.com/solvemon/jjn#readme"
 }
