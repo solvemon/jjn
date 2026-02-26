@@ -13,23 +13,35 @@
 </head>
 
 <body>
-    <nav id="sidebar">
-        <h2>AAJJ Pensum</h2>
-        <input type="text" id="search-box" placeholder="Søk i pensum...">
-        <div id="search-results" class="hidden"></div>
-        <div id="nav-tree">
-            {{NAV_ITEMS}}
-        </div>
-    </nav>
-    <main id="main-content">
-        <div class="card">
-            <div id="content-body">
-                {{{content}}}
+    <div class="hero-bg" style="background-image: url('images/jujitsu_hero_background.png');"></div>
+    <div class="landing-overlay"></div>
+
+    <header id="top-bar">
+        <div class="top-bar-inner">
+            <a href="index.html" class="top-logo">AAJJ <span>PENSUM</span></a>
+            <div class="top-search-wrap">
+                <input type="text" id="search-box" placeholder="Søk i pensum...">
+                <div id="search-results" class="hidden"></div>
             </div>
         </div>
+    </header>
 
-        {{#if related}}{{/if}}
-    </main>
+    <div id="app-container">
+        <nav id="sidebar">
+            <div id="nav-tree">
+                {{NAV_ITEMS}}
+            </div>
+        </nav>
+        <main id="main-content">
+            <div class="content-card">
+                <div id="content-body">
+                    {{{content}}}
+                </div>
+            </div>
+
+            {{#if related}}{{/if}}
+        </main>
+    </div>
     <script src="js/search.js"></script>
 </body>
 
