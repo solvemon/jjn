@@ -12,6 +12,21 @@ const DIST_DIR = path.join(__dirname, 'dist');
 const TEMPLATE_PATH = path.join(__dirname, 'templates', 'base.html');
 const PUBLIC_DIR = path.join(__dirname, 'public');
 
+const TYPE_MAP = {
+    'techniques': 'Teknikk',
+    'attacks': 'Angrep',
+    'defenses': 'Forsvar',
+    'levels': 'Gradering',
+    'drills': 'Drill',
+    'combinations': 'Kombinasjon',
+    'positions': 'Posisjon'
+};
+
+const DOMAIN_MAP = {
+    'standing': 'Stående',
+    'ground': 'Bakke'
+};
+
 async function build() {
     console.log('Building enhanced curriculum site...');
 
@@ -33,12 +48,13 @@ async function build() {
         for (const file of files) {
             if (!file.endsWith('.md')) continue;
             const { data, content } = matter(await fs.readFile(path.join(folderPath, file), 'utf-8'));
-            allNodes[data.id] = { ...data, body: content, url: `${data.id}.html`, type: folder };
+            const typeLabel = TYPE_MAP[folder] || folder;
+            allNodes[data.id] = { ...data, body: content, url: `${data.id}.html`, type: folder, typeLabel };
             searchIndex.push({
                 id: data.id,
                 title: data.name,
                 japanese: data.japanese || '',
-                type: folder,
+                type: typeLabel,
                 url: `${data.id}.html`
             });
         }
@@ -90,8 +106,11 @@ async function build() {
         // Build metadata header
         let metaHtml = '<div class="metadata-header">';
         if (node.japanese) metaHtml += `<div class="tag">🇯🇵 ${node.japanese}</div>`;
-        if (node.category) metaHtml += `<div class="tag">📁 ${node.category}</div>`;
-        if (node.domain) metaHtml += `<div class="tag">🌐 ${node.domain}</div>`;
+        if (node.typeLabel) metaHtml += `<div class="tag">📁 ${node.typeLabel}</div>`;
+        if (node.domain) {
+            const domainLabel = DOMAIN_MAP[node.domain] || node.domain;
+            metaHtml += `<div class="tag">🌐 ${domainLabel}</div>`;
+        }
         metaHtml += '</div>';
 
         // Build related section
@@ -127,8 +146,12 @@ async function build() {
     }
 
     await fs.writeJson(path.join(DIST_DIR, 'search-index.json'), searchIndex);
-    await fs.writeFile(path.join(DIST_DIR, 'index.html'), '<meta http-equiv="refresh" content="0; url=senior-5-kyu-yellow.html">');
-    console.log('Build complete with enhanced links!');
+
+    // Render landing page as index.html
+    const landingTemplate = await fs.readFile(path.join(__dirname, 'templates', 'landing.html'), 'utf-8');
+    await fs.writeFile(path.join(DIST_DIR, 'index.html'), landingTemplate);
+
+    console.log('Build complete with enhanced links and landing page!');
 }
 
 function buildNav(nodes) {

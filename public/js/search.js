@@ -40,8 +40,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return `
                     <a href="${item.url}" class="search-result-item nav-link">
                         <div class="result-title">${item.title}</div>
-                        ${item.japanese ? `<div class="result-sub">${item.japanese}</div>` : ''}
-                        <div class="tag small">${item.type}</div>
+                        <div class="result-meta">
+                            ${item.japanese ? `<span class="result-sub">${item.japanese}</span>` : ''}
+                            <span class="tag small">${item.type}</span>
+                        </div>
                     </a>
                 `;
             }).join('');
